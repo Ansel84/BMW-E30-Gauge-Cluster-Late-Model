@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "00d578f4-1582-4e4e-9a07-e5462d38fb61")
+	(paper "A4")
+	(title_block
+		(title "BMW E30 Late Model SI Board")
+		(rev "0")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
