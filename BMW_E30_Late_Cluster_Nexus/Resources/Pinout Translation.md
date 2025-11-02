@@ -89,19 +89,19 @@ Pin	German	English
 3	KL 31b	Terminal 31b (ground)
 4	KL 31	Terminal 31 (ground)
 5	KL 61	Terminal 61 (charging system)
-KF 41–58 (rear connector block)
+# KF 41–58 (rear connector block)
 Pin	German	English
 1	Temp. +Ub	Temp. + supply voltage
 2	Temp. Masse	Temp. ground
 3	Temp. Geber	Temperature sender
 4	Reset	Reset
 5	KL 15	Terminal 15 (ignition on)
-6	KL 31	Terminal 31 (ground)
+6	NC
 7	KL 31	Terminal 31 (ground)
 8	KL 30	Terminal 30 (battery +)
 9	KL TD	Engine speed signal (TD)
 10	KL 11	Terminal 11
-11	A	Fuel warning lamp
+11	A	Wheel speed output
 12	KVA Sp 2+	Current supply 2+
 13	KVA Sp 2–	Current supply 2–
 14	KVA Sp 1–	Current supply 1–
