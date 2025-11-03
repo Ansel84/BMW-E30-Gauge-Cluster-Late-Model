@@ -3600,12 +3600,6 @@
 		(uuid "49fc1c2a-c02e-4fd5-afa9-5d21bec4ab1b")
 	)
 	(junction
-		(at 290.83 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56913418-5288-4ce7-996e-bb244ddbe8c5")
-	)
-	(junction
 		(at 344.17 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3716,6 +3710,14 @@
 	(no_connect
 		(at 62.23 110.49)
 		(uuid "80aa5fca-0cce-42ed-9d9d-137e01306498")
+	)
+	(no_connect
+		(at 381 100.33)
+		(uuid "81b3d036-e993-4b27-89aa-94541c9afdb6")
+	)
+	(no_connect
+		(at 381 110.49)
+		(uuid "8bc0ce93-7e34-4b07-8211-99e2048d430d")
 	)
 	(no_connect
 		(at 62.23 105.41)
@@ -4175,16 +4177,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 55.88) (xy 309.88 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e36df9-736e-498e-9b73-729c7467530a")
-	)
-	(wire
-		(pts
 			(xy 144.78 212.09) (xy 113.03 212.09)
 		)
 		(stroke
@@ -4505,16 +4497,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 50.8) (xy 290.83 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57922d6c-81b2-4498-92b6-378665ae1646")
-	)
-	(wire
-		(pts
 			(xy 62.23 40.64) (xy 63.5 40.64)
 		)
 		(stroke
@@ -4612,16 +4594,6 @@
 			(type default)
 		)
 		(uuid "631d5781-547c-47ea-b45d-f2272741684c")
-	)
-	(wire
-		(pts
-			(xy 309.88 55.88) (xy 309.88 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "651e017d-3244-4fe6-b90e-0135877cf4cd")
 	)
 	(wire
 		(pts
@@ -5425,7 +5397,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 55.88) (xy 290.83 58.42)
+			(xy 290.83 50.8) (xy 290.83 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5535,16 +5507,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 74.93) (xy 309.88 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ed2d57-ccc7-45c9-8762-c22b15aa0211")
-	)
-	(wire
-		(pts
 			(xy 344.17 97.79) (xy 340.36 97.79)
 		)
 		(stroke
@@ -5562,16 +5524,6 @@
 			(type default)
 		)
 		(uuid "d24d3eb3-a18e-4b9a-ab26-cd84273734e9")
-	)
-	(wire
-		(pts
-			(xy 309.88 74.93) (xy 309.88 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7e63bd1-bb1e-45a2-857d-8429ba327a3f")
 	)
 	(wire
 		(pts
@@ -8504,28 +8456,6 @@
 			)
 		)
 	)
-	(global_label "Low_Fuel_ind-"
-		(shape input)
-		(at 283.21 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fcc1c500-bd31-40c8-8668-1e3b74fb1521")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.3154 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Fuel_level"
 		(shape output)
 		(at 44.45 97.79 180)
@@ -8681,76 +8611,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Lamp")
-		(at 309.88 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0722cead-59c4-4b4b-92de-01a3c6e1a659")
-		(property "Reference" "LA14"
-			(at 313.69 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Tank warn"
-			(at 313.69 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "mount:B8.5d"
-			(at 309.88 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 309.88 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 309.88 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e006d7a6-23c7-4f35-917a-7c35ac75bdb9")
-		)
-		(pin "2"
-			(uuid "1aebfe1a-54c9-4498-8fb9-c2742a6e715c")
-		)
-		(instances
-			(project "e30-cluster"
-				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
-					(reference "LA14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 48.26 31.75 0)
 		(unit 1)
@@ -8825,7 +8685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15b5b701-765f-43d2-8b36-653ee2379d4d")
-		(property "Reference" "LA17"
+		(property "Reference" "LA14"
 			(at 347.98 172.7199 0)
 			(effects
 				(font
@@ -8843,7 +8703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 344.17 171.45 90)
 			(effects
 				(font
@@ -8879,7 +8739,7 @@
 		(instances
 			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
-					(reference "LA17")
+					(reference "LA14")
 					(unit 1)
 				)
 			)
@@ -9000,7 +8860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 208.28 109.22 90)
 			(effects
 				(font
@@ -9137,7 +8997,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal"
 			(at 377.698 160.02 90)
 			(effects
 				(font
@@ -9353,7 +9213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BMW_Cluster_Connectors:ConnectorIV_Late"
 			(at 38.1 215.9 0)
 			(effects
 				(font
@@ -9498,7 +9358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 227.33 66.04 90)
 			(effects
 				(font
@@ -9634,7 +9494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal"
 			(at 357.632 105.41 90)
 			(effects
 				(font
@@ -9836,7 +9696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 302.26 109.22 90)
 			(effects
 				(font
@@ -9972,7 +9832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mount:2821MF"
+		(property "Footprint" "BMW_Cluster_Connectors:2821MF"
 			(at 361.95 66.04 90)
 			(effects
 				(font
@@ -10040,7 +9900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 139.7 152.4 0)
 			(effects
 				(font
@@ -10110,7 +9970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 246.38 104.14 90)
 			(effects
 				(font
@@ -10378,7 +10238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mount:2821MF"
+		(property "Footprint" "BMW_Cluster_Connectors:2821MF"
 			(at 344.17 66.04 90)
 			(effects
 				(font
@@ -10448,7 +10308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 284.48 109.22 90)
 			(effects
 				(font
@@ -10518,7 +10378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 109.855 68.58 0)
 			(effects
 				(font
@@ -10605,7 +10465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 265.43 171.45 90)
 			(effects
 				(font
@@ -10675,7 +10535,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 290.83 66.04 90)
 			(effects
 				(font
@@ -10943,7 +10803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 344.17 102.87 90)
 			(effects
 				(font
@@ -11185,7 +11045,7 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp")
-		(at 389.89 100.33 0)
+		(at 381 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11194,7 +11054,7 @@
 		(fields_autoplaced yes)
 		(uuid "a94eb590-9647-467d-8ad1-525b5c7410c1")
 		(property "Reference" "LA16"
-			(at 393.7 99.0599 0)
+			(at 384.81 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11203,7 +11063,7 @@
 			)
 		)
 		(property "Value" "Unused"
-			(at 393.7 101.5999 0)
+			(at 384.81 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,8 +11071,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
-			(at 389.89 97.79 90)
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
+			(at 381 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11221,7 +11081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 389.89 97.79 90)
+			(at 381 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,7 +11090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 389.89 100.33 0)
+			(at 381 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +11205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BMW_Cluster_Connectors:ConnectorV_Late"
 			(at 107.95 224.79 0)
 			(effects
 				(font
@@ -11464,7 +11324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TE_AMP:TE_827881-2"
+		(property "Footprint" "BMW_Cluster_Connectors:TE_827881-2"
 			(at 54.61 105.41 0)
 			(effects
 				(font
@@ -11738,7 +11598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 208.28 60.96 90)
 			(effects
 				(font
@@ -11874,7 +11734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 247.65 171.45 90)
 			(effects
 				(font
@@ -12009,7 +11869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BMW_Cluster_Connectors:Tach_EG_Socket_Late"
 			(at 208.28 231.14 0)
 			(effects
 				(font
@@ -12169,7 +12029,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mount:B8.5d"
+		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
 			(at 227.33 109.22 90)
 			(effects
 				(font
@@ -12715,7 +12575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TE_AMP:TE_827881-1"
+		(property "Footprint" "BMW_Cluster_Connectors:TE_827881-1"
 			(at 54.61 162.56 0)
 			(effects
 				(font
@@ -12855,7 +12715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TE_AMP:TE_827881-3"
+		(property "Footprint" "BMW_Cluster_Connectors:TE_827881-3"
 			(at 54.61 53.34 0)
 			(effects
 				(font
