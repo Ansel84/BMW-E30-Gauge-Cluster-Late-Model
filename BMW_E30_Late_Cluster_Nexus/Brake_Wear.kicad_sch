@@ -1271,16 +1271,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 120.65) (xy 228.6 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a158900-3bbd-43a2-af43-1f0f0380fa43")
-	)
-	(wire
-		(pts
 			(xy 228.6 99.06) (xy 228.6 92.71)
 		)
 		(stroke
@@ -1341,6 +1331,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 120.65) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9defdf79-8c73-49c3-ad98-8fd70c228e4b")
+	)
+	(wire
+		(pts
 			(xy 120.65 83.82) (xy 120.65 90.17)
 		)
 		(stroke
@@ -1377,7 +1377,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "dd71c7d5-83e6-4857-919e-838dc8f61c70")
+		(uuid "d2738b7c-74ca-41cb-823e-33f3b321e520")
 	)
 	(wire
 		(pts
@@ -2721,16 +2721,16 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp")
-		(at 228.6 115.57 180)
+		(at 228.6 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1eca35a-c81b-4daa-95de-e3544b9e5f5a")
 		(property "Reference" "LA10"
-			(at 232.41 114.2999 0)
+			(at 232.41 116.8401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2739,7 @@
 			)
 		)
 		(property "Value" "Brake pad"
-			(at 232.41 116.8399 0)
+			(at 232.41 114.3001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2748,7 @@
 			)
 		)
 		(property "Footprint" "BMW_Cluster_Connectors:2721MF"
-			(at 228.6 118.11 90)
+			(at 228.6 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 118.11 90)
+			(at 228.6 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
