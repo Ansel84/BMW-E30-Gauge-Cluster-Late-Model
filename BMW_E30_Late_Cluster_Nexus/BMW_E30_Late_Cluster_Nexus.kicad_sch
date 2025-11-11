@@ -6,6 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "BMW E30 Late Model Cluster Nexus")
+		(date "2025-11-10")
+		(rev "0")
+		(company "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "BMW_Cluster_Connectors:Gauge_fuel_temp"
@@ -5898,7 +5901,7 @@
 				)
 				(uuid "425feee6-a9db-4f3b-867d-1c064f432b07")
 			)
-			(table_cell "This Schematic Notation"
+			(table_cell "Function"
 				(exclude_from_sim no)
 				(at 124.46 20.32 0)
 				(size 26.67 2.54)
