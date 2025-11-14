@@ -2858,6 +2858,76 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
+		(at 212.09 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29253e84-d97b-4874-9fa9-77b9c4347683")
+		(property "Reference" "C13"
+			(at 215.9 148.9709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 215.9 151.5109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D9.0mm_P2.50mm"
+			(at 213.0552 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16v"
+			(at 212.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5a33c70-092b-4631-ae40-78cb1cb00a0f")
+		)
+		(pin "1"
+			(uuid "d21754f1-11c0-44e8-9e86-01886b54ddc3")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
 		(at 223.52 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
