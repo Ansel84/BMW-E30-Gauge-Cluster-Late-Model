@@ -1443,6 +1443,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -1891,6 +2030,352 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:LP2950-5.0_TO92"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LP2950-5.0_TO92"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp2951.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Micropower Voltage Regulator 100mA Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LP2950-5.0_TO92_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LP2950-5.0_TO92_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BC337"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC337"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC337_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC337_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2788,7 +3273,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 185.42 151.13 0)
+		(at 252.73 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2797,7 +3282,7 @@
 		(fields_autoplaced yes)
 		(uuid "1113bffc-7c35-4453-a45d-3a281b02c240")
 		(property "Reference" "C11"
-			(at 189.23 148.9709 0)
+			(at 256.54 142.6209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +3291,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 189.23 151.5109 0)
+			(at 256.54 145.1609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +3300,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D9.0mm_P2.50mm"
-			(at 186.3852 154.94 0)
+			(at 253.6952 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +3309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 151.13 0)
+			(at 252.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +3318,7 @@
 			)
 		)
 		(property "Description" "16v"
-			(at 185.42 151.13 0)
+			(at 252.73 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,8 +3342,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC337")
+		(at 209.55 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1822505e-bc57-4525-997c-767e42a324f4")
+		(property "Reference" "Q13"
+			(at 214.63 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337-16"
+			(at 214.63 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 214.63 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 209.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 209.55 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebe8fae7-1035-4b4b-b296-99958a068aec")
+		)
+		(pin "2"
+			(uuid "6dc9bd7e-c98c-4c47-a137-05c44d179939")
+		)
+		(pin "3"
+			(uuid "3f9c6377-9fe6-49e5-9090-d6bb3ccd1ddb")
+		)
+		(instances
+			(project ""
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 212.09 151.13 0)
+		(at 166.37 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2867,7 +3428,7 @@
 		(fields_autoplaced yes)
 		(uuid "29253e84-d97b-4874-9fa9-77b9c4347683")
 		(property "Reference" "C13"
-			(at 215.9 148.9709 0)
+			(at 170.18 155.3209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +3437,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 215.9 151.5109 0)
+			(at 170.18 157.8609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D9.0mm_P2.50mm"
-			(at 213.0552 154.94 0)
+			(at 167.3352 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 151.13 0)
+			(at 166.37 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +3464,7 @@
 			)
 		)
 		(property "Description" "16v"
-			(at 212.09 151.13 0)
+			(at 166.37 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +3489,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 223.52 151.13 0)
+		(at 189.23 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2937,7 +3498,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b58bcc6-3350-4c40-86c6-b2d196b92fe1")
 		(property "Reference" "C15"
-			(at 227.33 148.9709 0)
+			(at 193.04 155.3209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +3507,7 @@
 			)
 		)
 		(property "Value" "68u"
-			(at 227.33 151.5109 0)
+			(at 193.04 157.8609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +3516,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.5mm_P5.00mm"
-			(at 224.4852 154.94 0)
+			(at 190.1952 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2964,7 +3525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 151.13 0)
+			(at 189.23 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +3534,7 @@
 			)
 		)
 		(property "Description" "6v3"
-			(at 223.52 151.13 0)
+			(at 189.23 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,6 +3656,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 156.21 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4112da4c-baa5-4bac-80ee-7a5728c0a01c")
+		(property "Reference" "C3"
+			(at 160.02 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 160.02 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 157.1752 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8341223c-69a2-480a-9e60-f40f5494de8c")
+		)
+		(pin "1"
+			(uuid "ed5c6398-86a9-40ce-96f3-f8951a4582eb")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 36.83 77.47 0)
 		(unit 1)
@@ -3155,6 +3786,76 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 190.5 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48495638-cd01-4fdd-ae48-c3dc4d652c5e")
+		(property "Reference" "C6"
+			(at 194.31 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.033u"
+			(at 194.31 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+			(at 191.4652 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, 100v"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7986e7f4-cd81-4b4d-957b-71866b08cd2c")
+		)
+		(pin "1"
+			(uuid "e873266f-0212-4d71-9c28-361381c50b1b")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3280,6 +3981,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 205.74 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c67cef8-582a-4830-bf05-e96bbccf73ce")
+		(property "Reference" "C7"
+			(at 209.55 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 209.55 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+			(at 206.7052 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, 100v"
+			(at 205.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf932cc2-c6f1-4c80-bebd-bce7321934c2")
+		)
+		(pin "1"
+			(uuid "3c89369b-086a-4963-a89b-85e86ada2b2e")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 185.42 34.29 0)
 		(unit 1)
@@ -3344,6 +4115,216 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 226.06 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61a6ba58-7c64-4ee2-a203-5359ea56a518")
+		(property "Reference" "C19"
+			(at 229.87 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1n"
+			(at 229.87 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 227.0252 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 226.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd97b6d2-aa6a-4bc9-a9d3-fed7d0659b39")
+		)
+		(pin "1"
+			(uuid "24768aa2-a186-41a6-8944-fa19eb8c5c07")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "678b20b8-764d-4ec5-9473-f8ccbdda68d9")
+		(property "Reference" "C18"
+			(at 215.9 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 215.9 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+			(at 213.0552 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, 63v"
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "afe4951e-0c84-4da2-b31d-42f89c568c2b")
+		)
+		(pin "1"
+			(uuid "a1db80dd-12cf-4789-9f2e-68a22de8af7e")
+		)
+		(instances
+			(project ""
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 217.17 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6acb3b55-bc7f-437e-930f-b25dea3e3609")
+		(property "Reference" "C8"
+			(at 220.98 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47n"
+			(at 220.98 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 218.1352 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d6485b9-d637-4775-ad32-7b77e5a71300")
+		)
+		(pin "1"
+			(uuid "d80bbe45-acf6-4f09-89b8-459fdb6bccff")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3420,6 +4401,292 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC337")
+		(at 238.76 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c5fb37d-3fc4-4a64-8ceb-919243a39526")
+		(property "Reference" "Q19"
+			(at 243.84 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC337-25"
+			(at 243.84 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 243.84 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, TO-92"
+			(at 238.76 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "444d64fa-a7ea-4b41-9f90-79ce772c35d2")
+		)
+		(pin "2"
+			(uuid "9fbaf276-fdcd-4ee0-a448-78ca5c7050e2")
+		)
+		(pin "3"
+			(uuid "68f8e3f8-2aa4-4868-846b-41204f357a09")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 251.46 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70a25c1e-1f24-4bb4-9ee0-ed0b07ebf615")
+		(property "Reference" "C21"
+			(at 255.27 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1n"
+			(at 255.27 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 252.4252 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 251.46 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04860ad8-9367-4406-be7a-42c7fa9b6314")
+		)
+		(pin "1"
+			(uuid "70ca22c5-af2e-4d67-b7a9-ef6030f33aa0")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 238.76 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76db67e6-93b0-498b-97da-468a0114a85c")
+		(property "Reference" "C20"
+			(at 242.57 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1n"
+			(at 242.57 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 239.7252 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee5b2749-fb13-44c9-bcc5-eff64800dc5b")
+		)
+		(pin "1"
+			(uuid "a0c65d8f-57a7-46d5-8eb3-6746af42c556")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dc9dd60-f282-4a95-ba9f-24f9debbca7b")
+		(property "Reference" "C5"
+			(at 182.88 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 182.88 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
+			(at 180.0352 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, 63v"
+			(at 179.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "977bfc2c-8a17-4467-beb7-bc463c0029b9")
+		)
+		(pin "1"
+			(uuid "aad37782-e7c4-4117-928f-075ebc4612a4")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 130.81 34.29 0)
 		(unit 1)
@@ -3484,6 +4751,76 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "941fd687-656a-464f-a653-fdb95a6de908")
+		(property "Reference" "C14"
+			(at 181.61 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 181.61 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 178.7652 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a4e8777-25f6-4d98-bd19-c140cdda0931")
+		)
+		(pin "1"
+			(uuid "9a546e0d-b9d1-4855-ac15-c35b10ca5d5f")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3560,6 +4897,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LP2950-5.0_TO92")
+		(at 229.87 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9806b37-8426-42ba-8605-725dd79c5ce2")
+		(property "Reference" "U1"
+			(at 229.87 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LP2950-5.0_TO92"
+			(at 229.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 229.87 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp2951.pdf"
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micropower Voltage Regulators with Shutdown, 100mA, Fixed Output 5.0V, TO-92"
+			(at 229.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec4c75dd-ce73-4837-8ad6-1ade21054057")
+		)
+		(pin "2"
+			(uuid "4b45ccbe-0e0d-432a-835c-8e8291015991")
+		)
+		(pin "3"
+			(uuid "9a92e0a8-174a-4bc1-87e2-f46092be189b")
+		)
+		(instances
+			(project ""
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b20dc3cc-191d-4735-8b78-980940eafd5d")
+		(property "Reference" "C10"
+			(at 243.84 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68n"
+			(at 243.84 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 240.9952 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 240.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1128277-0b9e-4677-b393-ae5ec55bf404")
+		)
+		(pin "1"
+			(uuid "10a861ef-e02f-47ba-a437-08876d490476")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 62.23 24.13 0)
 		(unit 1)
@@ -3626,17 +5105,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 185.42 138.43 0)
+		(lib_id "Device:C")
+		(at 228.6 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cab11eff-ef9f-418d-b3f5-34140196273f")
-		(property "Reference" "C4"
-			(at 189.23 136.2709 0)
+		(uuid "c1699df5-a1e5-409b-8dfd-e700faa96723")
+		(property "Reference" "C9"
+			(at 232.41 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,8 +5123,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
-			(at 189.23 138.8109 0)
+		(property "Value" "68n"
+			(at 232.41 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,8 +5132,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal"
-			(at 186.3852 142.24 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 229.5652 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +5142,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 138.43 0)
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b9ce346-7efb-4e5b-8019-8a9b5fc3d576")
+		)
+		(pin "1"
+			(uuid "cf9ed2c2-d36c-4b83-a29d-3d944cde98dc")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 167.64 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cab11eff-ef9f-418d-b3f5-34140196273f")
+		(property "Reference" "C4"
+			(at 171.45 142.6209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 171.45 145.1609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal"
+			(at 168.6052 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +5221,7 @@
 			)
 		)
 		(property "Description" "16v"
-			(at 185.42 138.43 0)
+			(at 167.64 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +5246,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 199.39 151.13 0)
+		(at 153.67 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3706,7 +5255,7 @@
 		(fields_autoplaced yes)
 		(uuid "e28509dc-a195-4505-8cca-583c05ba0df2")
 		(property "Reference" "C12"
-			(at 203.2 148.9709 0)
+			(at 157.48 155.3209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +5264,7 @@
 			)
 		)
 		(property "Value" "100u"
-			(at 203.2 151.5109 0)
+			(at 157.48 157.8609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +5273,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal"
-			(at 200.3552 154.94 0)
+			(at 154.6352 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +5282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 151.13 0)
+			(at 153.67 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +5291,7 @@
 			)
 		)
 		(property "Description" "16v"
-			(at 199.39 151.13 0)
+			(at 153.67 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,6 +5511,146 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8519a2a-78b3-4636-bfa8-30194c9ff882")
+		(property "Reference" "C17"
+			(at 204.47 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68n"
+			(at 204.47 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 201.6252 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bf4eda6-4643-40c7-a37a-2da261513a7a")
+		)
+		(pin "1"
+			(uuid "77302dce-653b-4c57-a4f2-2ae6378d27b9")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef78c2e-3712-470e-9894-1d6ef0af9d99")
+		(property "Reference" "C1"
+			(at 148.59 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 148.59 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 145.7452 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d3fb521-d10f-43ed-9b07-9aa26f7814a5")
+		)
+		(pin "1"
+			(uuid "945010f9-bb43-4254-a6f6-39c98b419b3a")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C1")
 					(unit 1)
 				)
 			)
