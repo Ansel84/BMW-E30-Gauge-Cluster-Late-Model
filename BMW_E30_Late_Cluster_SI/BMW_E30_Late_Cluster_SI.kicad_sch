@@ -1916,6 +1916,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -4351,7 +4519,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 120.65 0)
+		(at 58.42 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4360,7 +4528,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b8a018d-5a0d-4836-b33b-76202b27de9c")
 		(property "Reference" "R26"
-			(at 62.23 119.3799 0)
+			(at 60.96 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4537,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 62.23 121.9199 0)
+			(at 60.96 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4546,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 57.912 120.65 90)
+			(at 56.642 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 120.65 0)
+			(at 58.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4564,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 59.69 120.65 0)
+			(at 58.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,16 +4589,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 24.13 96.52 0)
+		(at 106.68 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22685101-147a-4cc0-83ca-cc606158dbf8")
-		(property "Reference" "R4"
-			(at 26.67 95.2499 0)
+		(uuid "20e0fe7a-46cc-448d-87d5-54418310353b")
+		(property "Reference" "R34"
+			(at 109.22 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,8 +4606,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6k8"
-			(at 26.67 97.7899 0)
+		(property "Value" "160R"
+			(at 109.22 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4616,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 22.352 96.52 90)
+			(at 104.902 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 96.52 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +4634,77 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 24.13 96.52 0)
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "519867f5-30dd-466a-86c8-a0a15df159b2")
+		)
+		(pin "1"
+			(uuid "404a852f-96ed-406a-8f90-2c6d5d5b3be8")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 24.13 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22685101-147a-4cc0-83ca-cc606158dbf8")
+		(property "Reference" "R4"
+			(at 26.67 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6k8"
+			(at 26.67 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 22.352 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 24.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4869,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 109.22 0)
+		(at 69.85 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4640,7 +4878,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c1c6eab-d601-4a4c-8b87-95baf1ada474")
 		(property "Reference" "R44"
-			(at 73.66 107.9499 0)
+			(at 72.39 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4887,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 73.66 110.4899 0)
+			(at 72.39 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +4896,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 69.342 109.22 90)
+			(at 68.072 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 109.22 0)
+			(at 69.85 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4914,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 71.12 109.22 0)
+			(at 69.85 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,6 +5036,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 81.28 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "367dd56a-b3a6-4d0c-b5b6-fc171aac661e")
+		(property "Reference" "R38"
+			(at 83.82 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "160R"
+			(at 83.82 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 79.502 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 81.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eec9ad3c-9e03-4240-b764-662425b70956")
+		)
+		(pin "1"
+			(uuid "596ff4c4-4c0f-4454-8d47-7336e7cff34c")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC337")
 		(at 261.62 69.85 0)
 		(unit 1)
@@ -4868,6 +5176,94 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 119.38 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4070e149-15ef-4e23-a1b5-55f08238249d")
+		(property "Reference" "D25"
+			(at 121.92 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SD103A"
+			(at 121.92 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5ed39fa-edcc-4109-a8bd-c700bbf380c2")
+		)
+		(pin "1"
+			(uuid "fca66397-467c-4e14-9916-1361af43a9e8")
+		)
+		(instances
+			(project ""
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -5486,16 +5882,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 96.52 0)
+		(at 93.98 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5e863c2d-2bdc-4c4b-b982-8e2357618d60")
-		(property "Reference" "R23"
-			(at 62.23 95.2499 0)
+		(uuid "584cdf17-4b55-4e0a-92ab-d7846e8a565c")
+		(property "Reference" "R37"
+			(at 96.52 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,8 +5899,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "39k"
-			(at 62.23 97.7899 0)
+		(property "Value" "160R"
+			(at 96.52 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5909,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 57.912 96.52 90)
+			(at 92.202 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 96.52 0)
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5927,77 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 59.69 96.52 0)
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7dada351-bba0-4826-93ac-f5eb26969f45")
+		)
+		(pin "1"
+			(uuid "f46e9185-8865-439e-ba99-ec6b070dadc6")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e863c2d-2bdc-4c4b-b982-8e2357618d60")
+		(property "Reference" "R23"
+			(at 60.96 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39k"
+			(at 60.96 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 56.642 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 58.42 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,6 +6015,76 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f161b51-2bc6-4e6d-8700-d24e7067d925")
+		(property "Reference" "R39"
+			(at 121.92 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 121.92 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 117.602 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 119.38 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a63d8450-9520-4609-ac49-c7ab85753bc8")
+		)
+		(pin "1"
+			(uuid "fc35715c-b945-4f86-8d6c-898bd163626c")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -5696,7 +6232,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 96.52 0)
+		(at 46.99 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5705,7 +6241,7 @@
 		(fields_autoplaced yes)
 		(uuid "651fc39f-f4e6-4143-96a4-8195dedd47c0")
 		(property "Reference" "R9"
-			(at 50.8 95.2499 0)
+			(at 49.53 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +6250,7 @@
 			)
 		)
 		(property "Value" "4k6"
-			(at 50.8 97.7899 0)
+			(at 49.53 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +6259,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 46.482 96.52 90)
+			(at 45.212 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +6268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 96.52 0)
+			(at 46.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +6277,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 48.26 96.52 0)
+			(at 46.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +6372,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 109.22 0)
+		(at 58.42 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5845,7 +6381,7 @@
 		(fields_autoplaced yes)
 		(uuid "68c53945-2804-44d0-9a7f-f6a1af8516e2")
 		(property "Reference" "R28"
-			(at 62.23 107.9499 0)
+			(at 60.96 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +6390,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 62.23 110.4899 0)
+			(at 60.96 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +6399,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 57.912 109.22 90)
+			(at 56.642 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +6408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 109.22 0)
+			(at 58.42 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6417,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 59.69 109.22 0)
+			(at 58.42 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6728,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 109.22 0)
+		(at 35.56 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6201,7 +6737,7 @@
 		(fields_autoplaced yes)
 		(uuid "71873fa4-c751-4982-9076-2fa2d2ad96d1")
 		(property "Reference" "R14"
-			(at 39.37 107.9499 0)
+			(at 38.1 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6746,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 39.37 110.4899 0)
+			(at 38.1 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6755,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 35.052 109.22 90)
+			(at 33.782 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 109.22 0)
+			(at 35.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6773,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 36.83 109.22 0)
+			(at 35.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +7020,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 96.52 0)
+		(at 69.85 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6493,7 +7029,7 @@
 		(fields_autoplaced yes)
 		(uuid "78847446-f086-49ec-a9f5-ffbe6be389c5")
 		(property "Reference" "R24"
-			(at 73.66 95.2499 0)
+			(at 72.39 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +7038,7 @@
 			)
 		)
 		(property "Value" "51k"
-			(at 73.66 97.7899 0)
+			(at 72.39 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +7047,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 69.342 96.52 90)
+			(at 68.072 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +7056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 96.52 0)
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,7 +7065,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 71.12 96.52 0)
+			(at 69.85 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,6 +7446,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 119.38 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94274174-d9b0-474f-a74d-d1d31b07bfe7")
+		(property "Reference" "R40"
+			(at 121.92 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 121.92 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 117.602 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30a598b6-d351-4ff3-b890-b12a1988a426")
+		)
+		(pin "1"
+			(uuid "ce7ba4c6-2e0a-47f0-9283-511249b07b68")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 119.38 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6980,7 +7586,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 109.22 0)
+		(at 46.99 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6989,7 +7595,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d1b3aeb-0b02-4984-ad4d-77b46e81e3cd")
 		(property "Reference" "R15"
-			(at 50.8 107.9499 0)
+			(at 49.53 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +7604,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 50.8 110.4899 0)
+			(at 49.53 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7613,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 46.482 109.22 90)
+			(at 45.212 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 109.22 0)
+			(at 46.99 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7631,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 48.26 109.22 0)
+			(at 46.99 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,6 +7737,76 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8694a16-9945-4884-a8fb-d4840f81cfaa")
+		(property "Reference" "R33"
+			(at 109.22 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "160R"
+			(at 109.22 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 104.902 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bed2d068-2527-4b90-bb46-d0c40a041850")
+		)
+		(pin "1"
+			(uuid "2af56aac-453f-4e8d-b436-194e4ece0a33")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7285,6 +7961,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 119.38 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abab73e5-ac00-4f4c-9dcb-e88ec5fad847")
+		(property "Reference" "R41"
+			(at 121.92 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 121.92 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 117.602 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 119.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3a5d43d-dd95-4798-ae97-fd682e98606e")
+		)
+		(pin "1"
+			(uuid "43988ff1-a378-4b06-8e8e-8355b1a32126")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac1d5a9b-fafb-4135-9da6-34798de27fa7")
+		(property "Reference" "R43"
+			(at 83.82 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "82R"
+			(at 83.82 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 79.502 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 81.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "870586cf-0cf3-4765-a7c8-2c62ee2a550d")
+		)
+		(pin "1"
+			(uuid "eba6f18e-6522-4fce-973e-789b4a45b810")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC547")
 		(at 219.71 69.85 0)
 		(unit 1)
@@ -7362,7 +8178,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 120.65 0)
+		(at 35.56 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7371,7 +8187,7 @@
 		(fields_autoplaced yes)
 		(uuid "afc3ad00-3c65-4f9f-9c1e-ac3dd0f38e08")
 		(property "Reference" "R22"
-			(at 39.37 119.3799 0)
+			(at 38.1 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +8196,7 @@
 			)
 		)
 		(property "Value" "16k"
-			(at 39.37 121.9199 0)
+			(at 38.1 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +8205,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 35.052 120.65 90)
+			(at 33.782 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +8214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 120.65 0)
+			(at 35.56 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7407,7 +8223,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 36.83 120.65 0)
+			(at 35.56 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,6 +8241,146 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b082fe3c-c69c-4e28-a755-351e4e84d42f")
+		(property "Reference" "R36"
+			(at 96.52 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "160R"
+			(at 96.52 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 92.202 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbb9311e-12c8-4775-990a-08a2fe5b0d1d")
+		)
+		(pin "1"
+			(uuid "0ce49eca-e847-4813-93a7-7a82041bc514")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b18c40a3-e77e-48c2-9714-e492ee6f9990")
+		(property "Reference" "R42"
+			(at 83.82 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "82R"
+			(at 83.82 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 79.502 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88b8d03b-6f18-4c3b-80a1-e39124f160df")
+		)
+		(pin "1"
+			(uuid "0b63d4e0-8c56-490e-b5a1-71f7d5ce8030")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -7872,7 +8828,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 120.65 0)
+		(at 46.99 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7881,7 +8837,7 @@
 		(fields_autoplaced yes)
 		(uuid "c983986b-10d8-4cce-ad3a-8f5b24c84720")
 		(property "Reference" "R46"
-			(at 50.8 119.3799 0)
+			(at 49.53 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +8846,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 50.8 121.9199 0)
+			(at 49.53 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7899,7 +8855,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 46.482 120.65 90)
+			(at 45.212 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +8864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 120.65 0)
+			(at 46.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +8873,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 48.26 120.65 0)
+			(at 46.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,16 +8968,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 96.52 0)
+		(at 106.68 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9ef0ec2-8769-404a-8620-a0b3abe416af")
-		(property "Reference" "R5"
-			(at 39.37 95.2499 0)
+		(uuid "cf025ba9-d33a-4ad7-b2a3-449c64d6f22c")
+		(property "Reference" "R32"
+			(at 109.22 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,8 +8985,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4k6"
-			(at 39.37 97.7899 0)
+		(property "Value" "160R"
+			(at 109.22 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8039,7 +8995,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 35.052 96.52 90)
+			(at 104.902 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +9004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 96.52 0)
+			(at 106.68 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8057,7 +9013,77 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 36.83 96.52 0)
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd78bfe0-4cbd-4f2f-be01-f54f65f49baa")
+		)
+		(pin "1"
+			(uuid "4ff314b0-4d32-4da0-9c0b-47fac415a479")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9ef0ec2-8769-404a-8620-a0b3abe416af")
+		(property "Reference" "R5"
+			(at 38.1 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k6"
+			(at 38.1 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 33.782 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 35.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,6 +9449,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 69.85 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4978bf7-cae9-4b64-9698-6f46f6875a7e")
+		(property "Reference" "R45"
+			(at 72.39 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 72.39 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 68.072 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "712e6cef-407c-41e0-a270-d20da684bcd5")
+		)
+		(pin "1"
+			(uuid "a38b6dc9-1290-4feb-bb8b-862554082d89")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 144.78 144.78 0)
 		(unit 1)
@@ -8487,6 +9583,76 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff28a5d6-43e1-4ef8-9ae0-62718d78561a")
+		(property "Reference" "R35"
+			(at 96.52 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "160R"
+			(at 96.52 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+			(at 92.202 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ced2a81-afe7-4cb2-ac53-eb84e765ba6c")
+		)
+		(pin "1"
+			(uuid "344b5e75-0f6d-4529-9a14-d09b31769bb6")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "R35")
 					(unit 1)
 				)
 			)
