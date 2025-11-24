@@ -617,6 +617,10 @@
     [
       "b04c7dca-233f-4936-a882-7f55988b8ad8",
       "Indicator Lights"
+    ],
+    [
+      "84ca9cc6-3e51-42c7-8f6d-11ef7495b962",
+      "Temperature Sensor"
     ]
   ],
   "text_variables": {}
