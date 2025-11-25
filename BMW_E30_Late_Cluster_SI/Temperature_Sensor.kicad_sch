@@ -2908,203 +2908,104 @@
 		)
 		(uuid "fc948852-0859-4972-bd55-a301e7a35a2e")
 	)
-	(global_label "IC1_P17"
-		(shape output)
-		(at 128.27 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b938636-5d58-4694-8fec-bd5d72c2710e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.9961 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Eng_temp_sensor"
-		(shape input)
-		(at 68.58 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d11b52f-27fb-4e2a-8e2f-6eff6fdd4caf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.327 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IC1_P18"
-		(shape input)
-		(at 39.37 148.59 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "327a519d-cd9f-4101-a94e-a360f020dbad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.6439 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IC3_P7"
-		(shape input)
-		(at 251.46 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43ba5bf1-2ef4-43bc-b019-c40cc3820e1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.9766 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IC1_P23"
-		(shape input)
-		(at 251.46 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ef3a999-a823-49d0-831a-85db8d1af0c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.1861 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IC1_P18"
-		(shape input)
-		(at 251.46 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9e173349-db32-4605-8c75-f4130f08816a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.1861 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Temp_+Ub"
-		(shape output)
-		(at 124.46 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac7f8c99-5a9c-48cb-9562-b546a3717957")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.3632 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Temp_GND"
-		(shape output)
-		(at 124.46 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c60ce72c-954d-400e-a438-d58823a67b82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1818 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IC1_P19"
+	(hierarchical_label "IC1_P19"
 		(shape output)
 		(at 128.27 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d4ab7f98-67bf-416b-9571-3e661a084052")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.9961 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "334e10d4-db9c-4002-8cfd-9ee7b9aa6322")
+	)
+	(hierarchical_label "IC1_P18"
+		(shape bidirectional)
+		(at 251.46 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "48868def-26f2-4df0-bfb5-d49b082c740c")
+	)
+	(hierarchical_label "Temp_GND"
+		(shape output)
+		(at 124.46 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a2ff845-a472-44a9-a873-b2d79bab0bf9")
+	)
+	(hierarchical_label "IC1_P23"
+		(shape output)
+		(at 251.46 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "675f2346-07bb-4b0f-ab1a-5e931d11baed")
+	)
+	(hierarchical_label "Temp_+Ub"
+		(shape output)
+		(at 124.46 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91eec929-701b-49eb-acd5-d51c8a242b77")
+	)
+	(hierarchical_label "Eng_temp_sensor"
+		(shape input)
+		(at 68.58 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "978d4fa5-6607-4cff-a402-55eb49c47743")
+	)
+	(hierarchical_label "IC1_P18"
+		(shape input)
+		(at 39.37 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1a0e963-abce-4606-96c2-cdf101aa00b1")
+	)
+	(hierarchical_label "IC3_P7"
+		(shape output)
+		(at 251.46 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac695cf4-792b-4605-a92f-d2113953a01a")
+	)
+	(hierarchical_label "IC1_P17"
+		(shape output)
+		(at 128.27 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb094e9b-32de-4dff-882b-8f436d60a348")
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
