@@ -1,0 +1,279 @@
+(footprint "Lamp_D4.0mm_Horizontal_O3.81mm_Z2.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins, diameter 3.0mm z-position of LED center 2.0mm, 2 pins")
+	(tags "LED diameter 3.0mm z-position of LED center 2.0mm 2 pins diameter 3.0mm z-position of LED center 2.0mm 2 pins")
+	(property "Reference" "LA1"
+		(at 1.27 -1.96 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2d724da1-159c-4f48-a600-dce4e9d2eee6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Lamp"
+		(at 1.27 10.17 180)
+		(layer "F.Fab")
+		(uuid "a8d30619-1c35-4d6d-b89a-0ee4960a8164")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0880506e-9856-4f29-82b4-e2605cf97453")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Lamp"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc67d4ff-c5cd-4096-b0df-3e3c024d404d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.25 -1.25)
+		(end -1.25 9.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4aa5f919-ebbf-431c-a955-7967f78072d7")
+	)
+	(fp_line
+		(start -1.25 9.45)
+		(end 3.75 9.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "758f9cd9-97ca-4615-9648-fcb8f9a489ff")
+	)
+	(fp_line
+		(start 3.75 -1.25)
+		(end -1.25 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "258cb680-ef38-413a-9ade-e439ccbb165b")
+	)
+	(fp_line
+		(start 3.75 9.45)
+		(end 3.75 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9021303-72ef-4df3-9e34-c01fd34cd077")
+	)
+	(fp_line
+		(start -0.23 3.81)
+		(end -0.23 7.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5949c34f-5dd5-4b2b-bb89-2e20064108e3")
+	)
+	(fp_line
+		(start -0.23 3.81)
+		(end 2.77 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d1b83724-c0ad-4fea-b392-1b663e3e883a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4608efbf-7f6e-426f-9b60-a288dd55b44c")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b20b0db3-c797-4dc4-afc9-886e86a333ed")
+	)
+	(fp_line
+		(start 0 3.81)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6956ef42-94d1-4fe3-873e-3fa0ffa2ca8a")
+	)
+	(fp_line
+		(start 0 3.81)
+		(end 0 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3017720-7257-4139-ae94-6f3a1db8d506")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3b07ce2-eed0-4f08-9259-c476e9dc483b")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 2.54 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "464aad13-a5c1-4985-a0fa-79c8d132e3e3")
+	)
+	(fp_line
+		(start 2.54 3.81)
+		(end 2.54 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97c3a0ea-193d-4f87-af80-e200d0045608")
+	)
+	(fp_line
+		(start 2.54 3.81)
+		(end 2.54 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac76d573-0d83-4da1-9a87-b89cf283e505")
+	)
+	(fp_line
+		(start 2.77 3.81)
+		(end 2.77 7.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bccdf5f7-33a7-439f-8d3c-70fee217d496")
+	)
+	(fp_line
+		(start 2.77 4.81)
+		(end 2.77 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf0d0705-013f-40b9-b579-aba62d9750eb")
+	)
+	(fp_arc
+		(start 2.77 7.61)
+		(mid 1.27 9.11)
+		(end -0.23 7.61)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbfb3991-1558-49b0-b86f-606ce173c93b")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2 3.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.3)
+			(max_length 0.5)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "889cc0cd-7bab-4982-9dd9-56c207854f10")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 2 3.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.3)
+			(max_length 0.5)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges yes)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "59ae1c9b-dfb8-434a-9d7b-4e8a44626242")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

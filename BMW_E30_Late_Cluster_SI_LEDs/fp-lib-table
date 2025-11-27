@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SI_THT")(type "KiCad")(uri "/home/nomics/Documents/GitHub/BMW-E30-Gauge-Cluster-Late-Model/Libraries/SI_THT.pretty")(options "")(descr ""))
+)

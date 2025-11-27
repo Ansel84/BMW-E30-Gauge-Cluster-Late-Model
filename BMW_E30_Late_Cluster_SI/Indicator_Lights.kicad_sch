@@ -3295,6 +3295,112 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Oil Service Lamp"
+		(exclude_from_sim no)
+		(at 300.736 152.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "30cb6705-ae12-43c3-8639-f6eb68adfa58")
+	)
+	(text "LED_G1"
+		(exclude_from_sim no)
+		(at 334.01 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56eef328-c4b5-46fc-960c-2779ff9c4292")
+	)
+	(text "LED_G3"
+		(exclude_from_sim no)
+		(at 241.808 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b30f779-2110-41e5-83db-e6b8f2e3c021")
+	)
+	(text "LED_G5"
+		(exclude_from_sim no)
+		(at 288.544 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ed88af5-c8e9-4e68-9d1f-512778ac223b")
+	)
+	(text "LED_R"
+		(exclude_from_sim no)
+		(at 289.052 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ff3da2a-dccc-4ba0-9616-b674cc998e12")
+	)
+	(text "Inspection Lamp"
+		(exclude_from_sim no)
+		(at 211.074 185.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "da146bad-be91-454f-b0da-41144d43bea6")
+	)
+	(text "LED_G2"
+		(exclude_from_sim no)
+		(at 288.29 134.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dfbd4c54-18c8-4bb3-931e-553dc23737d5")
+	)
+	(text "LED_Y"
+		(exclude_from_sim no)
+		(at 289.052 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3b6b85b-6f8d-48dd-8b54-47cd6b8fa3bb")
+	)
+	(text "12 Month Indicator\nLamp"
+		(exclude_from_sim no)
+		(at 253.238 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "edc82e80-1a85-4625-9d54-04339ac9aaec")
+	)
+	(text "LED_G4"
+		(exclude_from_sim no)
+		(at 288.544 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f65f63f6-f6f4-4c2d-98a9-3aaad2b36fea")
+	)
 	(junction
 		(at 257.81 127)
 		(diameter 0)
@@ -3478,6 +3584,16 @@
 			(type default)
 		)
 		(uuid "095e2b19-23f0-4f89-b33d-e51d3e0b365b")
+	)
+	(wire
+		(pts
+			(xy 304.8 127) (xy 320.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e05c20-711f-407e-a143-ee748b08e2a8")
 	)
 	(wire
 		(pts
@@ -4348,16 +4464,6 @@
 			(type default)
 		)
 		(uuid "aa77cdb0-510e-49b4-bb54-7f253fc8ffdd")
-	)
-	(wire
-		(pts
-			(xy 304.8 127) (xy 320.04 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0722ad-5b7b-45dc-9bb8-c7c3bdc9f154")
 	)
 	(wire
 		(pts
