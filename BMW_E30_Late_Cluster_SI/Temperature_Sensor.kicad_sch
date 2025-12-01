@@ -1895,12 +1895,6 @@
 		(uuid "11e9ce1e-ca54-490e-a403-3f54d0617c42")
 	)
 	(junction
-		(at 181.61 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1281f796-94b1-4b8f-9d56-b990a5dd24e8")
-	)
-	(junction
 		(at 243.84 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1991,22 +1985,34 @@
 		(uuid "8c985772-bd1a-474d-a307-5f2d5c05328b")
 	)
 	(junction
+		(at 243.84 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96972e59-8561-4d2c-acee-268f92938c59")
+	)
+	(junction
+		(at 162.56 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1be880e-4a35-4d6b-a90b-079d510f4e60")
+	)
+	(junction
 		(at 162.56 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e09dd857-9310-414f-bdab-c9dd50288f68")
 	)
 	(junction
+		(at 208.28 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e296f5c6-8792-42d7-ae20-9ba95406ef44")
+	)
+	(junction
 		(at 208.28 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee65aa31-6ca1-4183-a9c5-df6b79b401b4")
-	)
-	(junction
-		(at 162.56 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3416e57-2f49-4a3d-aa95-8e846320b01d")
 	)
 	(wire
 		(pts
@@ -2080,7 +2086,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 130.81) (xy 243.84 140.97)
+			(xy 243.84 130.81) (xy 243.84 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2120,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 41.91) (xy 208.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2023c3c8-daf0-448d-bc62-b328c3367b0e")
+	)
+	(wire
+		(pts
 			(xy 148.59 106.68) (xy 154.94 106.68)
 		)
 		(stroke
@@ -2147,6 +2163,16 @@
 			(type default)
 		)
 		(uuid "223d28f8-39b1-4c2f-be58-5a228f35e6b5")
+	)
+	(wire
+		(pts
+			(xy 162.56 26.67) (xy 162.56 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22495767-2e8a-4077-af58-0d64fe73fc54")
 	)
 	(wire
 		(pts
@@ -2180,7 +2206,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 58.42) (xy 162.56 62.23)
+			(xy 162.56 55.88) (xy 162.56 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2190,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 41.91) (xy 162.56 41.91)
+			(xy 162.56 41.91) (xy 208.28 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2250,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 125.73) (xy 229.87 118.11)
+			(xy 229.87 124.46) (xy 229.87 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2267,16 +2293,6 @@
 			(type default)
 		)
 		(uuid "40521bf0-ed53-4686-a6c5-f725098bb52f")
-	)
-	(wire
-		(pts
-			(xy 181.61 33.02) (xy 181.61 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49fb702a-a3f5-41e5-8513-2dc47607fe61")
 	)
 	(wire
 		(pts
@@ -2340,6 +2356,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 41.91) (xy 243.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513d4bc8-7496-43c9-a852-6781640a0354")
+	)
+	(wire
+		(pts
 			(xy 48.26 168.91) (xy 48.26 148.59)
 		)
 		(stroke
@@ -2370,13 +2396,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 67.31) (xy 243.84 67.31)
+			(xy 266.7 78.74) (xy 266.7 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "566721e6-8abc-42a4-b48e-9c31a6a6b0f1")
+		(uuid "5778757c-21fd-450a-b2e6-85b09d5f385d")
 	)
 	(wire
 		(pts
@@ -2410,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 125.73) (xy 201.93 118.11)
+			(xy 201.93 124.46) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2420,13 +2446,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 41.91) (xy 162.56 50.8)
+			(xy 162.56 41.91) (xy 162.56 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "622c667f-64be-4d02-8a34-79ab30999ca3")
+	)
+	(wire
+		(pts
+			(xy 243.84 55.88) (xy 243.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63246127-2e14-4dfb-8721-1252550bff20")
 	)
 	(wire
 		(pts
@@ -2437,6 +2473,16 @@
 			(type default)
 		)
 		(uuid "66d34e48-1563-4703-a872-95198b91c4ed")
+	)
+	(wire
+		(pts
+			(xy 266.7 66.04) (xy 266.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6870216c-d11d-4fd7-b379-7cd5477f8276")
 	)
 	(wire
 		(pts
@@ -2500,7 +2546,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 137.16) (xy 229.87 133.35)
+			(xy 243.84 66.04) (xy 266.7 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747cc9a0-8567-49f8-89b2-773d6aa07590")
+	)
+	(wire
+		(pts
+			(xy 229.87 137.16) (xy 229.87 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2520,17 +2576,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 38.1) (xy 162.56 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ad460a0-2a9d-4ff0-bc0b-115f2fcea920")
-	)
-	(wire
-		(pts
-			(xy 243.84 140.97) (xy 251.46 140.97)
+			(xy 243.84 137.16) (xy 251.46 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2540,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 125.73) (xy 215.9 118.11)
+			(xy 215.9 124.46) (xy 215.9 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2620,16 +2666,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 25.4) (xy 162.56 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9329f740-ef3a-4f95-8be8-97b3baea7ff6")
-	)
-	(wire
-		(pts
 			(xy 68.58 43.18) (xy 81.28 43.18)
 		)
 		(stroke
@@ -2670,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 133.35) (xy 215.9 137.16)
+			(xy 215.9 132.08) (xy 215.9 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2687,16 +2723,6 @@
 			(type default)
 		)
 		(uuid "a9bbd84d-184e-4013-bd8d-cb680cba219c")
-	)
-	(wire
-		(pts
-			(xy 208.28 41.91) (xy 181.61 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9c82e9b-62ae-4800-be24-a727db81530b")
 	)
 	(wire
 		(pts
@@ -2790,6 +2816,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 38.1) (xy 162.56 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d338e83d-5c63-4599-b3c9-666b358d7457")
+	)
+	(wire
+		(pts
 			(xy 182.88 87.63) (xy 182.88 78.74)
 		)
 		(stroke
@@ -2850,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 67.31) (xy 243.84 71.12)
+			(xy 243.84 66.04) (xy 243.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 133.35) (xy 201.93 137.16)
+			(xy 201.93 132.08) (xy 201.93 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2919,17 +2955,6 @@
 		)
 		(uuid "334e10d4-db9c-4002-8cfd-9ee7b9aa6322")
 	)
-	(hierarchical_label "IC1_P18"
-		(shape bidirectional)
-		(at 251.46 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48868def-26f2-4df0-bfb5-d49b082c740c")
-	)
 	(hierarchical_label "Temp_GND"
 		(shape output)
 		(at 124.46 157.48 0)
@@ -2943,7 +2968,7 @@
 	)
 	(hierarchical_label "IC1_P23"
 		(shape output)
-		(at 251.46 140.97 0)
+		(at 251.46 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3035,7 +3060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "SI_THT:D_Axial_Narrow_L6.7mm_D2.4mm_P9.7mm"
 			(at 167.005 34.29 0)
 			(effects
 				(font
@@ -3584,7 +3609,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 201.93 129.54 0)
+		(at 201.93 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3593,7 +3618,7 @@
 		(fields_autoplaced yes)
 		(uuid "29253e84-d97b-4874-9fa9-77b9c4347683")
 		(property "Reference" "C13"
-			(at 205.74 127.3809 0)
+			(at 205.74 126.1109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3627,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 205.74 129.9209 0)
+			(at 205.74 128.6509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3636,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D9.0mm_P2.50mm"
-			(at 202.8952 133.35 0)
+			(at 202.8952 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3645,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 129.54 0)
+			(at 201.93 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +3654,7 @@
 			)
 		)
 		(property "Description" "16v"
-			(at 201.93 129.54 0)
+			(at 201.93 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,72 +3672,6 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/84ca9cc6-3e51-42c7-8f6d-11ef7495b962"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 181.61 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d2bc566-f4e6-4932-a72c-116b1ef2f0d0")
-		(property "Reference" "#PWR049"
-			(at 181.61 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "T30_Protected"
-			(at 181.61 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 181.61 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a22b54a-23b3-453a-8dd0-c5ef78389e22")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/84ca9cc6-3e51-42c7-8f6d-11ef7495b962"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3871,6 +3830,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 243.84 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d0e00a2-d538-4b1f-be9b-7ed42c01beb1")
+		(property "Reference" "R27"
+			(at 241.3 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47R"
+			(at 241.3 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+			(at 245.618 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5%, 1W?"
+			(at 243.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd6bc94f-f028-47f0-bba8-bb646c818f7e")
+		)
+		(pin "1"
+			(uuid "e45f18aa-ba79-458b-8465-4a2774e54334")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/84ca9cc6-3e51-42c7-8f6d-11ef7495b962"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 95.25 53.34 270)
 		(unit 1)
@@ -3898,7 +3928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SI_THT:D_Axial_Narrow_L6.7mm_D2.4mm_P9.7mm"
 			(at 95.25 53.34 0)
 			(effects
 				(font
@@ -3942,7 +3972,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 54.61 0)
+		(at 162.56 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3951,7 +3981,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e863c2d-2bdc-4c4b-b982-8e2357618d60")
 		(property "Reference" "R23"
-			(at 165.1 53.3399 0)
+			(at 165.1 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3990,7 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 165.1 55.8799 0)
+			(at 165.1 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3999,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 160.782 54.61 90)
+			(at 160.782 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +4008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 54.61 0)
+			(at 162.56 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +4017,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 162.56 54.61 0)
+			(at 162.56 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SI_THT:D_Axial_Narrow_L6.7mm_D2.4mm_P9.7mm"
 			(at 220.98 87.63 0)
 			(effects
 				(font
@@ -4974,6 +5004,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 266.7 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a90a9f96-f042-4a76-9ec5-6dd1360949fa")
+		(property "Reference" "#PWR043"
+			(at 266.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 266.573 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 266.7 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61935002-bfef-4531-9527-2628e1b7d6c3")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/84ca9cc6-3e51-42c7-8f6d-11ef7495b962"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC557")
 		(at 205.74 62.23 0)
 		(mirror x)
@@ -5264,7 +5360,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 229.87 129.54 0)
+		(at 229.87 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5273,7 +5369,7 @@
 		(fields_autoplaced yes)
 		(uuid "b20dc3cc-191d-4735-8b78-980940eafd5d")
 		(property "Reference" "C10"
-			(at 233.68 128.2699 0)
+			(at 233.68 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5378,7 @@
 			)
 		)
 		(property "Value" "68n"
-			(at 233.68 130.8099 0)
+			(at 233.68 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5387,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
-			(at 230.8352 133.35 0)
+			(at 230.8352 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 129.54 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5405,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 229.87 129.54 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5636,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 162.56 25.4 0)
+		(at 162.56 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5549,7 +5645,7 @@
 		(fields_autoplaced yes)
 		(uuid "da87c87d-dcff-43e3-9435-a7cce8c89359")
 		(property "Reference" "#PWR014"
-			(at 162.56 29.21 0)
+			(at 162.56 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5654,7 @@
 			)
 		)
 		(property "Value" "+12_T30"
-			(at 162.56 20.32 0)
+			(at 162.56 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 25.4 0)
+			(at 162.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5671,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 25.4 0)
+			(at 162.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5680,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 162.56 25.4 0)
+			(at 162.56 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,17 +5701,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 215.9 129.54 0)
+		(lib_id "Device:C_Polarized")
+		(at 266.7 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e8519a2a-78b3-4636-bfa8-30194c9ff882")
-		(property "Reference" "C17"
-			(at 219.71 128.2699 0)
+		(uuid "e28509dc-a195-4505-8cca-583c05ba0df2")
+		(property "Reference" "C12"
+			(at 270.51 72.7709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,8 +5719,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68n"
-			(at 219.71 130.8099 0)
+		(property "Value" "100u"
+			(at 270.51 75.3109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,8 +5728,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
-			(at 216.8652 133.35 0)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal"
+			(at 267.6652 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5738,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 129.54 0)
+			(at 266.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16v"
+			(at 266.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b28cb888-2e05-4fff-9cd0-ad72d4e8ea2e")
+		)
+		(pin "1"
+			(uuid "6a5fb63a-7aac-49fd-8562-1a868e54e257")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/84ca9cc6-3e51-42c7-8f6d-11ef7495b962"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8519a2a-78b3-4636-bfa8-30194c9ff882")
+		(property "Reference" "C17"
+			(at 219.71 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68n"
+			(at 219.71 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 216.8652 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5817,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 215.9 129.54 0)
+			(at 215.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

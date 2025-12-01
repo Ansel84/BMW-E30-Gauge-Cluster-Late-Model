@@ -1,4 +1,4 @@
-(footprint "R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+(footprint "D_Axial_Narrow_L6.7mm_D2.4mm_P9.7mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+	(property "Value" "D_Axial_Narrow_L6.7mm_D2.4mm_P9.7mm"
 		(at 3.81 1.92 0)
 		(layer "F.Fab")
 		(uuid "7cf42f8b-0fd6-4857-9d59-88568e16ea79")
@@ -52,6 +52,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start 0.8 -1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "cc4ca10d-efe8-4b60-8d10-ed8ea68fde2d")
+	)
 	(fp_rect
 		(start 0.8 -1.25)
 		(end 8.9 1.25)

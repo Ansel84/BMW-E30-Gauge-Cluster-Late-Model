@@ -1365,183 +1365,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1642,167 +1465,6 @@
 				)
 			)
 			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2183,189 +1845,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2480,194 +1959,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:Jumper_3_Bridged12"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_3_Bridged12"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_3_Bridged12_0_0"
-				(circle
-					(center -3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Bridged12_0_1"
-				(arc
-					(start -3.048 0.508)
-					(mid -1.651 0.9912)
-					(end -0.254 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3319,7 +2610,7 @@
 	)
 	(text "LED_G3"
 		(exclude_from_sim no)
-		(at 241.808 124.46 0)
+		(at 288.798 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3402,88 +2693,10 @@
 		(uuid "f65f63f6-f6f4-4c2d-98a9-3aaad2b36fea")
 	)
 	(junction
-		(at 257.81 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00adcdd8-0422-4fc5-a7b9-b0d138d3e0bb")
-	)
-	(junction
-		(at 95.25 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fec38e4-a081-4bf9-bfeb-9a5ec004dd66")
-	)
-	(junction
-		(at 95.25 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12f8b5b1-1d12-4449-95ee-1bd2480e9ddd")
-	)
-	(junction
-		(at 76.2 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a45bdce-68ff-42a6-aa26-45486c106deb")
-	)
-	(junction
-		(at 59.69 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cbdcf81-9f25-4dab-aa1a-effcab3cea09")
-	)
-	(junction
-		(at 273.05 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f50382f-72d2-46d3-8dd6-2fe4734cf0aa")
-	)
-	(junction
-		(at 76.2 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62629f6d-8351-40a6-9390-8081b378c039")
-	)
-	(junction
-		(at 273.05 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6cca267-cb5f-456b-a6fc-701c3c69a583")
-	)
-	(junction
-		(at 110.49 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b13425ab-3527-4c64-8dd2-46e8b3c62c02")
-	)
-	(junction
-		(at 95.25 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4a786ac-23a6-4bfa-b2dc-337c6db258eb")
-	)
-	(junction
 		(at 115.57 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b63ad8b7-c7fe-4211-9d7a-83532d2e75d4")
-	)
-	(junction
-		(at 44.45 204.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbb0f136-348a-493a-8d7b-7bdae49f8dae")
-	)
-	(junction
-		(at 273.05 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3bea5db-d4b8-4f6e-92f3-53ac4b82a3cd")
-	)
-	(junction
-		(at 44.45 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa0a5a06-d3f5-4fd3-8b76-7687315fa9b5")
 	)
 	(no_connect
 		(at 66.04 66.04)
@@ -3514,26 +2727,12 @@
 		(uuid "c3881cf1-ae88-48c4-af5c-a8daabeac03e")
 	)
 	(no_connect
-		(at 123.19 180.34)
-		(uuid "c9ea131e-b5c1-4a62-965b-5d5787ed4845")
-	)
-	(no_connect
 		(at 90.17 77.47)
 		(uuid "db6d93d6-20e8-4751-9120-d1679d5ef9cc")
 	)
 	(no_connect
 		(at 66.04 62.23)
 		(uuid "f705e92f-1dc6-41b0-9465-2130ac46b943")
-	)
-	(wire
-		(pts
-			(xy 257.81 113.03) (xy 257.81 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "048465ae-d448-433f-9588-43729eee7697")
 	)
 	(wire
 		(pts
@@ -3557,16 +2756,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 177.8) (xy 59.69 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "089caf13-3298-4e96-8c82-dc2e26043331")
-	)
-	(wire
-		(pts
 			(xy 115.57 50.8) (xy 115.57 54.61)
 		)
 		(stroke
@@ -3574,16 +2763,6 @@
 			(type default)
 		)
 		(uuid "094403e4-a263-489e-82ab-e331513ca968")
-	)
-	(wire
-		(pts
-			(xy 273.05 91.44) (xy 273.05 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "095e2b19-23f0-4f89-b33d-e51d3e0b365b")
 	)
 	(wire
 		(pts
@@ -3604,16 +2783,6 @@
 			(type default)
 		)
 		(uuid "0a5fe5f9-bb37-474b-899a-6a395321c19b")
-	)
-	(wire
-		(pts
-			(xy 76.2 173.99) (xy 76.2 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c1e71c5-0332-4742-81d5-fb671a18c20a")
 	)
 	(wire
 		(pts
@@ -3647,16 +2816,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 173.99) (xy 110.49 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15859527-19de-41c9-9930-94c513f11792")
-	)
-	(wire
-		(pts
 			(xy 339.09 52.07) (xy 339.09 55.88)
 		)
 		(stroke
@@ -3687,16 +2846,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 109.22) (xy 273.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ea32509-57f6-4aaf-afc0-fc1d1b48d4e9")
-	)
-	(wire
-		(pts
 			(xy 317.5 168.91) (xy 317.5 173.99)
 		)
 		(stroke
@@ -3704,16 +2853,6 @@
 			(type default)
 		)
 		(uuid "1f4ab8e2-a03c-4364-8d5c-aa3dd3c9f7b3")
-	)
-	(wire
-		(pts
-			(xy 44.45 204.47) (xy 44.45 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "204ff062-3f34-435c-8299-0ee1607b930b")
 	)
 	(wire
 		(pts
@@ -3757,16 +2896,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 189.23) (xy 44.45 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23bb59c9-da90-4bea-b906-1ae12a5287b0")
-	)
-	(wire
-		(pts
 			(xy 290.83 163.83) (xy 297.18 163.83)
 		)
 		(stroke
@@ -3774,26 +2903,6 @@
 			(type default)
 		)
 		(uuid "241293cc-c819-44ff-804a-604cd9f8a313")
-	)
-	(wire
-		(pts
-			(xy 257.81 120.65) (xy 257.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c3142d-91ae-4e52-8602-9fdb39cc28ef")
-	)
-	(wire
-		(pts
-			(xy 95.25 215.9) (xy 95.25 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25dac46e-372d-4393-91d8-64fbf175c305")
 	)
 	(wire
 		(pts
@@ -3807,33 +2916,13 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 116.84) (xy 297.18 116.84)
+			(xy 294.64 127) (xy 297.18 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c096e00-da5e-4457-b1e4-953ac3f7edc8")
-	)
-	(wire
-		(pts
-			(xy 44.45 189.23) (xy 44.45 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c3b5660-c97e-47be-802f-13f8436cd398")
-	)
-	(wire
-		(pts
-			(xy 59.69 173.99) (xy 76.2 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d22b240-2798-4222-93ba-5096d3321a27")
+		(uuid "2be71e7f-4839-4de1-b3c5-58e91f4dc814")
 	)
 	(wire
 		(pts
@@ -3907,16 +2996,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 177.8) (xy 44.45 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3db14b54-f7f4-46dc-bf98-39f89a4c90ec")
-	)
-	(wire
-		(pts
 			(xy 66.04 77.47) (xy 63.5 77.47)
 		)
 		(stroke
@@ -3924,16 +3003,6 @@
 			(type default)
 		)
 		(uuid "3f4fe099-9865-4f2c-a151-7493e26f7e83")
-	)
-	(wire
-		(pts
-			(xy 110.49 173.99) (xy 119.38 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a8d847-87fc-45cc-b25b-8fcba82af565")
 	)
 	(wire
 		(pts
@@ -3947,16 +3016,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 127) (xy 273.05 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41f06c64-bbef-4d8f-927e-da9abe24a320")
-	)
-	(wire
-		(pts
 			(xy 317.5 144.78) (xy 317.5 158.75)
 		)
 		(stroke
@@ -3964,16 +3023,6 @@
 			(type default)
 		)
 		(uuid "420a31e4-ae3d-4eff-9327-351e93a29cb9")
-	)
-	(wire
-		(pts
-			(xy 95.25 189.23) (xy 95.25 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424c3712-e37e-44f6-940f-5d2dff83edfb")
 	)
 	(wire
 		(pts
@@ -4077,36 +3126,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 127) (xy 297.18 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61e0da10-7b9f-4135-853e-ee1148e54122")
-	)
-	(wire
-		(pts
-			(xy 44.45 204.47) (xy 76.2 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6229a515-da65-4f9d-b65d-9251318df4a7")
-	)
-	(wire
-		(pts
-			(xy 76.2 204.47) (xy 95.25 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62572db4-5734-44f3-9941-5ae8d5ffb0d1")
-	)
-	(wire
-		(pts
 			(xy 92.71 107.95) (xy 92.71 128.27)
 		)
 		(stroke
@@ -4137,26 +3156,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 189.23) (xy 44.45 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "635a743d-1c9e-4c17-a984-ad28a7f18aa4")
-	)
-	(wire
-		(pts
-			(xy 110.49 185.42) (xy 110.49 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6523e3d9-0366-4877-965b-633cdca0b20c")
-	)
-	(wire
-		(pts
 			(xy 66.04 85.09) (xy 63.5 85.09)
 		)
 		(stroke
@@ -4174,26 +3173,6 @@
 			(type default)
 		)
 		(uuid "689722a0-a047-4f71-b5d8-be9213ff720f")
-	)
-	(wire
-		(pts
-			(xy 95.25 200.66) (xy 95.25 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c484d56-7f33-4eca-aacc-212a8a2c8af2")
-	)
-	(wire
-		(pts
-			(xy 95.25 189.23) (xy 95.25 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d787d0e-de53-4c61-9daa-6682b78f3ad7")
 	)
 	(wire
 		(pts
@@ -4227,16 +3206,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 162.56) (xy 123.19 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a13574d-24fb-424b-9baa-90d37c793121")
-	)
-	(wire
-		(pts
 			(xy 327.66 97.79) (xy 304.8 97.79)
 		)
 		(stroke
@@ -4244,16 +3213,6 @@
 			(type default)
 		)
 		(uuid "7c2a1d3b-81b1-403e-9136-717162dd94cc")
-	)
-	(wire
-		(pts
-			(xy 76.2 193.04) (xy 76.2 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7de23443-5f6b-46dd-ae76-9c9bffba624e")
 	)
 	(wire
 		(pts
@@ -4297,16 +3256,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 127) (xy 273.05 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81e24afa-cc9c-4ee5-a1a9-1b6467a97828")
-	)
-	(wire
-		(pts
 			(xy 59.69 100.33) (xy 66.04 100.33)
 		)
 		(stroke
@@ -4327,16 +3276,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 95.25) (xy 257.81 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ab61726-94ff-4bf7-ba46-895cbd9fec21")
-	)
-	(wire
-		(pts
 			(xy 350.52 119.38) (xy 358.14 119.38)
 		)
 		(stroke
@@ -4354,46 +3293,6 @@
 			(type default)
 		)
 		(uuid "8d4de717-3a75-45ee-8285-d18ed3b60c22")
-	)
-	(wire
-		(pts
-			(xy 95.25 204.47) (xy 95.25 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90a0ecb6-b525-44c5-8763-d4776dc58846")
-	)
-	(wire
-		(pts
-			(xy 273.05 95.25) (xy 273.05 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9254075a-6c2f-4bf7-9eee-59df6451fc87")
-	)
-	(wire
-		(pts
-			(xy 257.81 109.22) (xy 273.05 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99600003-ad72-4f72-bd5e-7af4992c6efc")
-	)
-	(wire
-		(pts
-			(xy 273.05 105.41) (xy 273.05 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8d6ed6-8283-4a24-b51d-78c3fb91885e")
 	)
 	(wire
 		(pts
@@ -4437,16 +3336,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 99.06) (xy 257.81 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f61795-489e-43f1-a636-70d33a5984c9")
-	)
-	(wire
-		(pts
 			(xy 339.09 147.32) (xy 345.44 147.32)
 		)
 		(stroke
@@ -4464,16 +3353,6 @@
 			(type default)
 		)
 		(uuid "aa77cdb0-510e-49b4-bb54-7f253fc8ffdd")
-	)
-	(wire
-		(pts
-			(xy 247.65 127) (xy 257.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab2d5cd5-62c0-4d41-a1c2-0bb6ea7b0e07")
 	)
 	(wire
 		(pts
@@ -4517,16 +3396,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 173.99) (xy 95.25 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d2eddb-12bc-4e14-b104-a56220bcd281")
-	)
-	(wire
-		(pts
 			(xy 214.63 196.85) (xy 220.98 196.85)
 		)
 		(stroke
@@ -4544,16 +3413,6 @@
 			(type default)
 		)
 		(uuid "ba5d9a3b-5f93-464a-abea-258b9283e98f")
-	)
-	(wire
-		(pts
-			(xy 59.69 185.42) (xy 59.69 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7ff306-e61c-4947-a586-4da6cd30b8dd")
 	)
 	(wire
 		(pts
@@ -4627,16 +3486,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 173.99) (xy 110.49 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3860dcb-f0ea-4bca-a744-14231b2a48c9")
-	)
-	(wire
-		(pts
 			(xy 327.66 97.79) (xy 327.66 127)
 		)
 		(stroke
@@ -4644,16 +3493,6 @@
 			(type default)
 		)
 		(uuid "c3b15f56-23e5-42ab-a483-43d37cb00a94")
-	)
-	(wire
-		(pts
-			(xy 44.45 173.99) (xy 59.69 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c72ff9ef-7c30-4bd9-a585-9f7b5a779367")
 	)
 	(wire
 		(pts
@@ -4697,16 +3536,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 76.2) (xy 273.05 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d10edc09-3cf0-4876-8ea3-e7e09d208280")
-	)
-	(wire
-		(pts
 			(xy 63.5 81.28) (xy 66.04 81.28)
 		)
 		(stroke
@@ -4737,13 +3566,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 204.47) (xy 44.45 200.66)
+			(xy 294.64 116.84) (xy 297.18 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea14c202-2d4f-4cd3-84d0-ca02db054f59")
+		(uuid "ea9d8350-0aae-4e5d-8ab1-e6d2a212dba8")
 	)
 	(wire
 		(pts
@@ -4754,16 +3583,6 @@
 			(type default)
 		)
 		(uuid "ef44b758-34b3-411c-b652-02182d041062")
-	)
-	(wire
-		(pts
-			(xy 95.25 173.99) (xy 95.25 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f179fbec-9e8c-47fa-978d-15d0df39b015")
 	)
 	(wire
 		(pts
@@ -4815,19 +3634,9 @@
 		)
 		(uuid "fc03bb06-b17e-499a-8626-81e0d36f245a")
 	)
-	(wire
-		(pts
-			(xy 110.49 189.23) (xy 95.25 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffef95b3-c2de-4011-a720-7658c8b6a187")
-	)
 	(global_label "IC4_P22"
 		(shape input)
-		(at 247.65 127 180)
+		(at 294.64 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4837,7 +3646,7 @@
 		)
 		(uuid "0827aab0-fc4c-412f-a8b2-f0dbf7fe4172")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.9239 127 0)
+			(at 283.9139 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,73 +4262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-BATT")
-		(at 257.81 99.06 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11145fdd-7bfb-49f9-ae76-e00250188f05")
-		(property "Reference" "#PWR053"
-			(at 257.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 257.81 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52d7f04e-5637-45cb-be9e-22da5d060128")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 317.5 173.99 0)
 		(unit 1)
@@ -5580,86 +4322,6 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 273.05 101.6 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b326d59-2ee1-48a0-a7c2-511b396029ef")
-		(property "Reference" "D26"
-			(at 269.24 101.9174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 269.24 104.4574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 273.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 273.05 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51d07623-803a-4d58-b2c5-c25edb477cdf")
-		)
-		(pin "2"
-			(uuid "da9e71f0-aa5d-40a9-85d0-b3a818603b6f")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -5898,165 +4560,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 95.25 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4070e149-15ef-4e23-a1b5-55f08238249d")
-		(property "Reference" "D25"
-			(at 97.79 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SD103A"
-			(at 97.79 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 95.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 95.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5ed39fa-edcc-4109-a8bd-c700bbf380c2")
-		)
-		(pin "1"
-			(uuid "fca66397-467c-4e14-9916-1361af43a9e8")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 273.05 87.63 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d0e00a2-d538-4b1f-be9b-7ed42c01beb1")
-		(property "Reference" "R27"
-			(at 270.51 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47R"
-			(at 270.51 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
-			(at 274.828 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5%, 1W?"
-			(at 273.05 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd6bc94f-f028-47f0-bba8-bb646c818f7e")
-		)
-		(pin "1"
-			(uuid "e45f18aa-ba79-458b-8465-4a2774e54334")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 300.99 97.79 90)
 		(unit 1)
@@ -6258,76 +4761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 59.69 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61a6ba58-7c64-4ee2-a203-5359ea56a518")
-		(property "Reference" "C19"
-			(at 63.5 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1n"
-			(at 63.5 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
-			(at 60.6552 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 59.69 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd97b6d2-aa6a-4bc9-a9d3-fed7d0659b39")
-		)
-		(pin "1"
-			(uuid "24768aa2-a186-41a6-8944-fa19eb8c5c07")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 339.09 39.37 0)
 		(unit 1)
@@ -6388,76 +4821,6 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 76.2 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "678b20b8-764d-4ec5-9473-f8ccbdda68d9")
-		(property "Reference" "C18"
-			(at 80.01 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 80.01 190.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
-			(at 77.1652 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, 63v"
-			(at 76.2 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "afe4951e-0c84-4da2-b31d-42f89c568c2b")
-		)
-		(pin "1"
-			(uuid "a1db80dd-12cf-4789-9f2e-68a22de8af7e")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6534,77 +4897,6 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
 					(reference "Q19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 257.81 116.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70a25c1e-1f24-4bb4-9ee0-ed0b07ebf615")
-		(property "Reference" "C21"
-			(at 254 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1n"
-			(at 254 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
-			(at 256.8448 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 257.81 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "04860ad8-9367-4406-be7a-42c7fa9b6314")
-		)
-		(pin "1"
-			(uuid "70ca22c5-af2e-4d67-b7a9-ef6030f33aa0")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6752,76 +5044,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 110.49 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76db67e6-93b0-498b-97da-468a0114a85c")
-		(property "Reference" "C20"
-			(at 114.3 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1n"
-			(at 114.3 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
-			(at 111.4552 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee5b2749-fb13-44c9-bcc5-eff64800dc5b")
-		)
-		(pin "1"
-			(uuid "a0c65d8f-57a7-46d5-8eb3-6746af42c556")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC337")
 		(at 271.78 182.88 0)
 		(unit 1)
@@ -6892,76 +5114,6 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
 					(reference "Q23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 44.45 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90e9133d-f58b-4a4c-a692-d3e75924c23b")
-		(property "Reference" "BT1"
-			(at 48.26 195.0084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V"
-			(at 48.26 197.5484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 196.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 196.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 44.45 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34fcebba-9334-4808-a36d-ed7dacd6bcf4")
-		)
-		(pin "2"
-			(uuid "5d2df5de-237b-46df-bcc3-050c04fe3c1b")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -7556,72 +5708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 95.25 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a90a9f96-f042-4a76-9ec5-6dd1360949fa")
-		(property "Reference" "#PWR043"
-			(at 95.25 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 95.123 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 95.25 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61935002-bfef-4531-9527-2628e1b7d6c3")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 255.27 182.88 90)
 		(unit 1)
@@ -7893,76 +5979,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 95.25 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b662bc0e-6d7b-4fd7-8c04-7b80494e034f")
-		(property "Reference" "BT2"
-			(at 99.06 195.0084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V"
-			(at 99.06 197.5484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 196.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 196.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 95.25 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afe82e18-1ee8-4dc3-840a-acd17f446787")
-		)
-		(pin "2"
-			(uuid "cb2f797e-2adb-44e4-abea-9375d49bbdf8")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 115.57 81.28 0)
 		(unit 1)
@@ -8106,165 +6122,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 115.57 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c983986b-10d8-4cce-ad3a-8f5b24c84720")
-		(property "Reference" "R46"
-			(at 270.51 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100R"
-			(at 270.51 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 274.828 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5%"
-			(at 273.05 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f72a0673-b60e-4b00-af3d-c1b3ebe46e98")
-		)
-		(pin "1"
-			(uuid "0d5d547d-be6c-470f-8c13-fb82c3e5d2ff")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 44.45 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb497475-352f-4aab-b0f4-e01c730ab22c")
-		(property "Reference" "D24"
-			(at 46.99 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SD103A"
-			(at 46.99 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 44.45 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 44.45 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 44.45 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14245161-1bbd-4242-8637-03140cafa9d8")
-		)
-		(pin "1"
-			(uuid "59183cfd-cc56-42be-946d-ec01579230e5")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 349.25 147.32 90)
 		(mirror x)
 		(unit 1)
@@ -8326,144 +6183,6 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Bridged12")
-		(at 123.19 173.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0485b77-4167-4f8f-9431-56ec2074c56f")
-		(property "Reference" "JP1"
-			(at 125.73 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery Jumper"
-			(at 125.73 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
-			(at 123.19 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb9ecfca-8221-49a3-8a9f-61a17c1f2c51")
-		)
-		(pin "3"
-			(uuid "e2ee73c7-1a38-4dce-aa0e-991ec96e168d")
-		)
-		(pin "2"
-			(uuid "8fc4ab34-92c3-469b-96c9-b7f69c73e3fd")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 123.19 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d510e168-4a7a-45ed-a326-b4c210c5d7c2")
-		(property "Reference" "#PWR035"
-			(at 123.19 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 123.19 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 123.19 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9c5c130-28cd-4fda-bc41-9df9c0fd65f4")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8602,209 +6321,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 273.05 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e129242d-3e22-433f-b4e0-e2957a56ec3d")
-		(property "Reference" "#PWR050"
-			(at 273.05 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "T30_Protected"
-			(at 273.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 273.05 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4511f205-6711-49d7-a9e4-f12c2a4bc14f")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 44.45 209.55 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e12f83cf-5588-4aca-99ed-4d75a7db7e60")
-		(property "Reference" "#PWR051"
-			(at 44.45 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-BATT"
-			(at 44.45 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 44.45 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25ab389d-a547-4778-8a56-f99e3db53fe1")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 95.25 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e28509dc-a195-4505-8cca-583c05ba0df2")
-		(property "Reference" "C12"
-			(at 99.06 209.9309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 99.06 212.4709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L18.0mm_D6.5mm_P25.00mm_Horizontal"
-			(at 96.2152 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "16v"
-			(at 95.25 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b28cb888-2e05-4fff-9cd0-ad72d4e8ea2e")
-		)
-		(pin "1"
-			(uuid "6a5fb63a-7aac-49fd-8562-1a868e54e257")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
 		(at 57.15 69.85 180)
 		(unit 1)
@@ -8900,7 +6416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SI_THT:D_Axial_Narrow_L6.7mm_D2.4mm_P9.7mm"
 			(at 339.09 48.26 0)
 			(effects
 				(font
