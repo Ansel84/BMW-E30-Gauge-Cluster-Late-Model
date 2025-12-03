@@ -11964,7 +11964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
+		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P22.4mm"
 			(at 59.182 264.16 90)
 			(effects
 				(font
