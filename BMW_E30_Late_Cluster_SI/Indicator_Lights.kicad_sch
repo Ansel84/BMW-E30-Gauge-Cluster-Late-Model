@@ -1969,6 +1969,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC337"
 			(pin_names
 				(offset 0)
@@ -2693,10 +2843,10 @@
 		(uuid "f65f63f6-f6f4-4c2d-98a9-3aaad2b36fea")
 	)
 	(junction
-		(at 115.57 66.04)
+		(at 129.54 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b63ad8b7-c7fe-4211-9d7a-83532d2e75d4")
+		(uuid "d17e1128-d8b9-4f2d-8fa2-64d3bb596e6f")
 	)
 	(no_connect
 		(at 66.04 66.04)
@@ -2756,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 50.8) (xy 115.57 54.61)
+			(xy 129.54 50.8) (xy 129.54 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2986,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 115.57 81.28)
+			(xy 129.54 77.47) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3156,6 +3306,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 66.04) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d444d7-bd42-4981-85ac-8a6350b8754a")
+	)
+	(wire
+		(pts
 			(xy 66.04 85.09) (xy 63.5 85.09)
 		)
 		(stroke
@@ -3296,16 +3456,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 66.04) (xy 115.57 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9afef7d0-c6ae-44d3-a91d-e25ea508fbb7")
-	)
-	(wire
-		(pts
 			(xy 339.09 78.74) (xy 339.09 121.92)
 		)
 		(stroke
@@ -3336,6 +3486,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 66.04) (xy 129.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a403a8f7-eae9-43f9-af12-37f54fb74fc3")
+	)
+	(wire
+		(pts
 			(xy 339.09 147.32) (xy 345.44 147.32)
 		)
 		(stroke
@@ -3356,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 66.04) (xy 115.57 69.85)
+			(xy 129.54 62.23) (xy 129.54 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3556,13 +3716,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 62.23) (xy 115.57 66.04)
+			(xy 129.54 66.04) (xy 129.54 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6cf1999-3cf7-42a6-8bbf-11cbcaca998a")
+		(uuid "e738f82c-d24b-4fec-a675-27274ff4517b")
 	)
 	(wire
 		(pts
@@ -4560,6 +4720,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 113.03 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52fca969-a1c7-4e51-9ae8-547a133bc150")
+		(property "Reference" "JP1"
+			(at 113.03 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SI_THT:Jumper_THT_P9.7mm"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff897893-d3e4-4a2d-9edf-1b3fd48dcf89")
+		)
+		(pin "1"
+			(uuid "60665ae2-e766-4ad4-9b8c-dcd8e8daafef")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/b04c7dca-233f-4936-a882-7f55988b8ad8"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 300.99 97.79 90)
 		(unit 1)
@@ -4904,7 +5132,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 115.57 50.8 0)
+		(at 129.54 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4913,7 +5141,7 @@
 		(fields_autoplaced yes)
 		(uuid "7359fc6b-3936-4f53-8753-4dbd6b2295c2")
 		(property "Reference" "#PWR012"
-			(at 115.57 54.61 0)
+			(at 129.54 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +5150,7 @@
 			)
 		)
 		(property "Value" "VCC_T15"
-			(at 115.57 45.72 0)
+			(at 129.54 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +5158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 50.8 0)
+			(at 129.54 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +5167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 50.8 0)
+			(at 129.54 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,7 +5176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 115.57 50.8 0)
+			(at 129.54 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5415,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 73.66 0)
+		(at 129.54 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5196,7 +5424,7 @@
 		(fields_autoplaced yes)
 		(uuid "941fd687-656a-464f-a653-fdb95a6de908")
 		(property "Reference" "C14"
-			(at 119.38 72.3899 0)
+			(at 133.35 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5433,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 119.38 74.9299 0)
+			(at 133.35 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5442,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
-			(at 116.5352 77.47 0)
+			(at 130.5052 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 73.66 0)
+			(at 129.54 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5460,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 115.57 73.66 0)
+			(at 129.54 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +6138,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 58.42 0)
+		(at 129.54 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5919,7 +6147,7 @@
 		(fields_autoplaced yes)
 		(uuid "b514b37b-b350-4f0e-be18-2fa90034f2b7")
 		(property "Reference" "R29"
-			(at 118.11 57.1499 0)
+			(at 132.08 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +6156,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 118.11 59.6899 0)
+			(at 132.08 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +6165,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:R_Axial_Narrow_L6.8mm_D2.4mm_P9.7mm"
-			(at 113.792 58.42 90)
+			(at 127.762 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +6174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 58.42 0)
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +6183,7 @@
 			)
 		)
 		(property "Description" "5%"
-			(at 115.57 58.42 0)
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +6208,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 115.57 81.28 0)
+		(at 129.54 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5989,7 +6217,7 @@
 		(fields_autoplaced yes)
 		(uuid "b97bf695-b354-473a-8805-77699517055d")
 		(property "Reference" "#PWR026"
-			(at 115.57 86.36 0)
+			(at 129.54 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6226,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 115.443 85.09 0)
+			(at 129.413 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 82.55 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +6243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 82.55 0)
+			(at 129.54 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 115.57 81.28 0)
+			(at 129.54 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

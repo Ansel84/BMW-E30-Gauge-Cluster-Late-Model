@@ -1913,12 +1913,6 @@
 		(uuid "1c0b4457-6615-4b1f-9fd8-d73823a2de0f")
 	)
 	(junction
-		(at 229.87 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23f57401-cad1-4d87-a9f0-e34aeec11f95")
-	)
-	(junction
 		(at 106.68 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1959,12 +1953,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6807cdb4-e0b6-4eda-8e75-25f5f239db70")
-	)
-	(junction
-		(at 215.9 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "681b46b6-cec8-4b1a-8a1d-fc27693c8a50")
 	)
 	(junction
 		(at 48.26 148.59)
@@ -2276,16 +2264,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 124.46) (xy 229.87 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fcf805b-1e5e-4e91-bdd2-76106bf7b2f6")
-	)
-	(wire
-		(pts
 			(xy 101.6 168.91) (xy 109.22 168.91)
 		)
 		(stroke
@@ -2536,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 118.11) (xy 243.84 118.11)
+			(xy 215.9 118.11) (xy 243.84 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2553,16 +2531,6 @@
 			(type default)
 		)
 		(uuid "747cc9a0-8567-49f8-89b2-773d6aa07590")
-	)
-	(wire
-		(pts
-			(xy 229.87 137.16) (xy 229.87 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7711b31a-144e-4f74-ba78-324deab5c5ba")
 	)
 	(wire
 		(pts
@@ -2673,16 +2641,6 @@
 			(type default)
 		)
 		(uuid "96844b25-1579-4222-a6d3-c2910d8e2937")
-	)
-	(wire
-		(pts
-			(xy 229.87 118.11) (xy 215.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad691a0-3589-4cd7-bcf6-1a4edf22a7c2")
 	)
 	(wire
 		(pts
@@ -2843,16 +2801,6 @@
 			(type default)
 		)
 		(uuid "d79bdff4-b0a0-4165-8506-cb7586607184")
-	)
-	(wire
-		(pts
-			(xy 215.9 137.16) (xy 229.87 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d87d3d7b-f40d-48f8-b740-0d2e62dc5ec7")
 	)
 	(wire
 		(pts
@@ -3148,7 +3096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D9.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D8.0mm_P2.50mm"
 			(at 183.8452 95.25 0)
 			(effects
 				(font
@@ -5353,76 +5301,6 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/84ca9cc6-3e51-42c7-8f6d-11ef7495b962"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 229.87 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b20dc3cc-191d-4735-8b78-980940eafd5d")
-		(property "Reference" "C10"
-			(at 233.68 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68n"
-			(at 233.68 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
-			(at 230.8352 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 229.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1128277-0b9e-4677-b393-ae5ec55bf404")
-		)
-		(pin "1"
-			(uuid "10a861ef-e02f-47ba-a437-08876d490476")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/84ca9cc6-3e51-42c7-8f6d-11ef7495b962"
-					(reference "C10")
 					(unit 1)
 				)
 			)
