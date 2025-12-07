@@ -1870,6 +1870,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Temp_+Ub and Temp_GND provide power to the temperature sensor gauge"
+		(exclude_from_sim no)
+		(at 142.24 146.05 0)
+		(size 25.4 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "22bca39f-756d-4a43-b3f9-4d22828dfbde")
+	)
 	(junction
 		(at 95.25 43.18)
 		(diameter 0)
