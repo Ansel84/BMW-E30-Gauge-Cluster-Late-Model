@@ -1074,16 +1074,10 @@
 		(uuid "943424ff-93e4-41cb-bbcf-7182a56db50c")
 	)
 	(junction
-		(at 100.33 33.02)
+		(at 99.06 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6ce2d07-134d-4650-aea6-1aca151bae0d")
-	)
-	(junction
-		(at 128.27 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a869bf4d-7a4d-4de9-b52f-7910a0832fcd")
+		(uuid "e0ff4a5a-16a2-4911-8351-aba243d5f849")
 	)
 	(junction
 		(at 207.01 88.9)
@@ -1091,15 +1085,21 @@
 		(color 0 0 0 0)
 		(uuid "f1bbae22-fc3d-49b7-8b0a-f0f445a7d392")
 	)
+	(junction
+		(at 127 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbfec108-96c8-4b52-bfb8-0fb3834578e9")
+	)
 	(wire
 		(pts
-			(xy 100.33 33.02) (xy 128.27 33.02)
+			(xy 99.06 33.02) (xy 88.9 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "057b7746-7bdd-4715-8bd6-1ba06c7138f4")
+		(uuid "0115282a-27a9-41e0-af92-2c99dbb97f37")
 	)
 	(wire
 		(pts
@@ -1143,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 35.56) (xy 100.33 33.02)
+			(xy 99.06 35.56) (xy 99.06 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1223,6 +1223,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 33.02) (xy 127 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd36d3e-6d2c-420d-aca1-00d75795639b")
+	)
+	(wire
+		(pts
 			(xy 201.93 130.81) (xy 207.01 130.81)
 		)
 		(stroke
@@ -1243,7 +1253,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 45.72) (xy 163.83 68.58)
+			(xy 162.56 45.72) (xy 162.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1273,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 33.02) (xy 163.83 35.56)
+			(xy 162.56 33.02) (xy 162.56 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1373,23 +1383,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 128.27 66.04)
+			(xy 127 45.72) (xy 127 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9c9f5f38-9a39-4f1d-9ba2-e0be3d110a6a")
-	)
-	(wire
-		(pts
-			(xy 100.33 33.02) (xy 88.9 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cd3195d-b463-4225-9cd1-c9c5a621fead")
 	)
 	(wire
 		(pts
@@ -1433,7 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 33.02) (xy 128.27 35.56)
+			(xy 127 33.02) (xy 127 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1473,7 +1473,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 128.27 66.04)
+			(xy 86.36 66.04) (xy 127 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1493,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 63.5) (xy 86.36 63.5)
+			(xy 99.06 63.5) (xy 86.36 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1503,7 +1503,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 68.58) (xy 86.36 68.58)
+			(xy 162.56 68.58) (xy 86.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1543,17 +1543,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 33.02) (xy 163.83 33.02)
+			(xy 127 33.02) (xy 162.56 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8799efa-7d4c-48d0-ac34-57b110457d73")
+		(uuid "e96ac60f-4daa-429c-9836-030c4b1b8806")
 	)
 	(wire
 		(pts
-			(xy 100.33 45.72) (xy 100.33 63.5)
+			(xy 99.06 45.72) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1655,6 +1655,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 198.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad266eaa-0548-4375-9e7e-638f1637a13b")
 		)
@@ -1672,7 +1681,7 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp")
-		(at 128.27 40.64 0)
+		(at 127 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1681,7 +1690,7 @@
 		(dnp no)
 		(uuid "371f9cf1-e732-48ee-af52-6f0b56885c7d")
 		(property "Reference" "LA2"
-			(at 132.08 41.9101 0)
+			(at 130.81 41.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1699,7 @@
 			)
 		)
 		(property "Value" "12 Month Indicator Lamp"
-			(at 132.08 39.3701 0)
+			(at 130.81 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1708,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:Lamp_D4.0mm_Horizontal_O3.81mm_Z2.0mm"
-			(at 128.27 38.1 90)
+			(at 127 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1717,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 38.1 90)
+			(at 127 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1726,16 @@
 			)
 		)
 		(property "Description" "Lamp"
-			(at 128.27 40.64 0)
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 127 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,6 +1812,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 198.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "337fcad3-d2ca-4375-81bb-fa466fc594c6")
 		)
@@ -1843,7 +1870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf"
 			(at 81.28 76.2 0)
 			(effects
 				(font
@@ -1853,6 +1880,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC121LGBN-RC/775906"
 			(at 81.28 76.2 0)
 			(effects
 				(font
@@ -1960,6 +1996,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45610630-00bd-42a5-bc8c-ca224809ac92")
 		)
@@ -2029,6 +2074,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 198.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0dd98994-fe39-4d82-82ce-1f6563c81260")
 		)
@@ -2046,7 +2100,7 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp")
-		(at 163.83 40.64 0)
+		(at 162.56 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2055,7 +2109,7 @@
 		(dnp no)
 		(uuid "bb4d1b40-0b71-4235-b779-6773816c2659")
 		(property "Reference" "LA1"
-			(at 167.64 41.9101 0)
+			(at 166.37 41.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2118,7 @@
 			)
 		)
 		(property "Value" "Inspection Lamp"
-			(at 167.64 39.3701 0)
+			(at 166.37 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2127,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:Lamp_D4.0mm_Horizontal_O3.81mm_Z2.0mm"
-			(at 163.83 38.1 90)
+			(at 162.56 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,7 +2136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 38.1 90)
+			(at 162.56 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2145,16 @@
 			)
 		)
 		(property "Description" "Lamp"
-			(at 163.83 40.64 0)
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 162.56 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,6 +2231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 198.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "862dde1a-b627-44a8-ab5c-0d2885408dba")
 		)
@@ -2229,6 +2301,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 198.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 198.12 74.93 0)
 			(effects
 				(font
@@ -2372,6 +2453,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 198.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "765ca6fe-ae68-4e66-8c12-e5bf4b649f09")
 		)
@@ -2389,7 +2479,7 @@
 	)
 	(symbol
 		(lib_id "Device:Lamp")
-		(at 100.33 40.64 180)
+		(at 99.06 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2398,7 +2488,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0a5033b-24f0-49ff-a66b-b166471e6dec")
 		(property "Reference" "LA3"
-			(at 104.14 39.3699 0)
+			(at 102.87 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2497,7 @@
 			)
 		)
 		(property "Value" "Oil Service Lamp"
-			(at 104.14 41.9099 0)
+			(at 102.87 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2506,7 @@
 			)
 		)
 		(property "Footprint" "SI_THT:Lamp_D4.0mm_Horizontal_O3.81mm_Z2.0mm"
-			(at 100.33 43.18 90)
+			(at 99.06 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 43.18 90)
+			(at 99.06 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2524,16 @@
 			)
 		)
 		(property "Description" "Lamp"
-			(at 100.33 40.64 0)
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

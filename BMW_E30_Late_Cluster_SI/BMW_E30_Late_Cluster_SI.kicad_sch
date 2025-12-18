@@ -11461,6 +11461,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 330.2 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac685926-cb80-44e5-b40f-9845096a1b13")
 		)
@@ -11521,6 +11530,15 @@
 		)
 		(property "Description" "Unspecified MCU of BMW E30 Late Model SI Board"
 			(at 162.56 244.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 157.48 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,6 +11720,15 @@
 		)
 		(property "Description" "Unspecified MCU of BMW E30 Late Model SI Board"
 			(at 246.38 217.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 241.3 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11893,6 +11920,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 356.87 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a04848a4-0a89-4bed-b2de-74d1706f940b")
 		)
@@ -11974,6 +12010,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 143.51 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 143.51 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12116,6 +12161,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 53.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57d02611-445d-4cad-910a-b416be4c52cc")
 		)
@@ -12194,6 +12248,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -12281,6 +12344,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 210.82 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51d07623-803a-4d58-b2c5-c25edb477cdf")
 		)
@@ -12333,7 +12405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf"
 			(at 30.48 110.49 0)
 			(effects
 				(font
@@ -12343,6 +12415,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC081LGBN-RC/775902"
 			(at 30.48 110.49 0)
 			(effects
 				(font
@@ -12496,6 +12577,15 @@
 		)
 		(property "Description" "5%"
 			(at 275.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 275.59 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,6 +12795,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "778af12d-0063-484e-8988-7cd9e942469e")
 		)
@@ -12775,6 +12874,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 33.02 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b877c1ae-bcd1-4a94-bb69-fb80cd9400d2")
 		)
@@ -12834,6 +12942,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 52.07 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 52.07 238.76 0)
 			(effects
 				(font
@@ -12968,6 +13085,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 39.37 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 39.37 238.76 0)
 			(effects
 				(font
@@ -13130,6 +13256,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 146.05 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5ed39fa-edcc-4109-a8bd-c700bbf380c2")
 		)
@@ -13192,6 +13327,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 317.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 317.5 48.26 0)
 			(effects
 				(font
@@ -13336,6 +13480,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 356.87 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "508860be-ec28-4451-8a1d-6f38f5cfbfb1")
 		)
@@ -13398,6 +13551,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, 100v"
+			(at 344.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 344.17 45.72 0)
 			(effects
 				(font
@@ -13494,6 +13656,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 115.57 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bafdc384-6505-457a-8745-b5a542425d53")
 		)
@@ -13562,6 +13733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 256.54 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bea6d56f-49e5-405c-bdf5-941f51df71df")
 		)
@@ -13622,6 +13802,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x19, script generated"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 29.21 49.53 0)
 			(effects
 				(font
@@ -13751,6 +13940,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 379.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bf932cc2-c6f1-4c80-bebd-bce7321934c2")
 		)
@@ -13821,6 +14019,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 342.9 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a14ea8cc-b641-4f8c-a52e-00e2b9ca3e5e")
 		)
@@ -13883,6 +14090,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 110.49 102.87 0)
 			(effects
 				(font
@@ -14159,6 +14375,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 127 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "afe4951e-0c84-4da2-b31d-42f89c568c2b")
 		)
@@ -14287,6 +14512,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 222.25 105.41 0)
 			(effects
 				(font
@@ -14430,6 +14664,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 317.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce21a7f9-2314-47c2-b0f2-26d68388c30f")
 		)
@@ -14492,6 +14735,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 161.29 102.87 0)
 			(effects
 				(font
@@ -14699,6 +14951,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 157.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "12732d03-e48f-4083-8d33-891e0f59f5f3")
 		)
@@ -14833,6 +15094,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 165.1 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20d912cc-bbf6-46a8-b1d3-ece10f375489")
 		)
@@ -14894,6 +15164,15 @@
 		)
 		(property "Description" "5%"
 			(at 302.26 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 302.26 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14969,6 +15248,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 106.68 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ebec973-fb03-45d5-966e-5e1fe9dbabee")
 		)
@@ -15031,6 +15319,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, 63v"
+			(at 308.61 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 308.61 226.06 0)
 			(effects
 				(font
@@ -15109,6 +15406,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34fcebba-9334-4808-a36d-ed7dacd6bcf4")
 		)
@@ -15171,6 +15477,15 @@
 			)
 		)
 		(property "Description" "16v"
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -15381,6 +15696,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 279.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f2df152-4a5b-4e7a-8659-1411c16498f2")
 		)
@@ -15442,6 +15766,15 @@
 		)
 		(property "Description" "5%"
 			(at 330.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 330.2 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15576,6 +15909,15 @@
 		)
 		(property "Description" "1%"
 			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 267.97 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15735,6 +16077,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 298.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55a2188d-f956-4bca-869e-897b29f8292e")
 		)
@@ -15795,6 +16146,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 158.75 87.63 0)
 			(effects
 				(font
@@ -15872,6 +16232,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec4c75dd-ce73-4837-8ad6-1ade21054057")
 		)
@@ -15937,6 +16306,15 @@
 		)
 		(property "Description" "5%"
 			(at 163.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 163.83 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16079,6 +16457,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 163.83 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88b8d03b-6f18-4c3b-80a1-e39124f160df")
 		)
@@ -16141,6 +16528,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 101.6 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 101.6 237.49 0)
 			(effects
 				(font
@@ -16219,6 +16615,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 292.1 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17d187f7-6a07-4fbf-946d-1a600ff9e547")
 		)
@@ -16289,6 +16694,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 292.1 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b002655f-23e5-4d6d-b613-7e5c711b3205")
 		)
@@ -16351,6 +16765,15 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 146.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 146.05 119.38 0)
 			(effects
 				(font
@@ -16759,6 +17182,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 330.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0b9ce346-7efb-4e5b-8019-8a9b5fc3d576")
 		)
@@ -16838,6 +17270,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 255.27 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 255.27 187.96 0)
 			(effects
 				(font
@@ -16981,6 +17422,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 210.82 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f72a0673-b60e-4b00-af3d-c1b3ebe46e98")
 		)
@@ -17042,6 +17492,15 @@
 			)
 		)
 		(property "Description" "16v"
+			(at 173.99 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 173.99 55.88 0)
 			(effects
 				(font
@@ -17131,6 +17590,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 95.25 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17339,6 +17807,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 39.37 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfffdbae-6003-44d5-8fa4-50a90f500c40")
 		)
@@ -17401,6 +17878,15 @@
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
 			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 173.99 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17471,6 +17957,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 261.62 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 261.62 262.89 0)
 			(effects
 				(font
@@ -17604,6 +18099,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 243.84 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 243.84 271.78 0)
 			(effects
 				(font
@@ -17880,6 +18384,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 71.12 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e78a1647-ecd3-4a92-83b1-c98ce18edbd6")
 		)
@@ -18079,6 +18592,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 52.07 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "69b14b0b-5162-4893-94b3-f7d6f1681f33")
 		)
@@ -18139,6 +18661,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 40.64 153.67 0)
 			(effects
 				(font
@@ -18215,6 +18746,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 46.99 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45ab33e6-181d-41fe-814f-d624d6989a1f")
 		)
@@ -18277,6 +18817,15 @@
 			)
 		)
 		(property "Description" "5%"
+			(at 59.69 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 59.69 231.14 0)
 			(effects
 				(font
@@ -18413,6 +18962,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 304.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
 			(at 304.8 48.26 0)
 			(effects
 				(font
