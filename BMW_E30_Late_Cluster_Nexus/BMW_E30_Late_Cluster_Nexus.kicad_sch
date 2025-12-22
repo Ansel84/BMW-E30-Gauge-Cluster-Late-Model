@@ -7822,7 +7822,7 @@
 		)
 	)
 	(global_label "Wheel_spd_output"
-		(shape input)
+		(shape output)
 		(at 54.61 213.36 0)
 		(fields_autoplaced yes)
 		(effects
