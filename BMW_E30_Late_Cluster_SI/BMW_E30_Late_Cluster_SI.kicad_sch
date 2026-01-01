@@ -5467,7 +5467,7 @@
 	)
 	(text "ASICs"
 		(exclude_from_sim no)
-		(at 85.09 143.002 0)
+		(at 87.63 143.256 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -5495,7 +5495,7 @@
 	)
 	(text_box "NOTE: See \"Indicator Lights\" (page 4) for IC4"
 		(exclude_from_sim no)
-		(at 87.63 147.32 0)
+		(at 90.17 147.32 0)
 		(size 34.29 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -6068,7 +6068,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 189.23) (xy 15.24 189.23)
+			(xy 87.63 191.77) (xy 15.24 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6558,7 +6558,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 144.78) (xy 85.09 189.23)
+			(xy 87.63 144.78) (xy 87.63 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6598,7 +6598,7 @@
 	)
 	(polyline
 		(pts
-			(xy 15.24 189.23) (xy 15.24 281.94)
+			(xy 15.24 191.77) (xy 15.24 281.94)
 		)
 		(stroke
 			(width 0)
@@ -7528,7 +7528,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 144.78) (xy 327.66 144.78)
+			(xy 87.63 144.78) (xy 327.66 144.78)
 		)
 		(stroke
 			(width 0)
