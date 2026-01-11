@@ -22906,7 +22906,7 @@
 		(uuid "3105dbba-173d-471e-876b-d997b2c9ffb8")
 	)
 	(gr_line
-		(start 264.5 183)
+		(start 263.5 183)
 		(end 175.8 183)
 		(stroke
 			(width 0.05)
