@@ -4293,7 +4293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "200k"
 			(at 210.82 88.8999 0)
 			(effects
 				(font
