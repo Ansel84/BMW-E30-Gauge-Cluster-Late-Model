@@ -11208,7 +11208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMW_Cluster_Connectors:ConnectorV_Late"
+		(property "Footprint" "BMW_Cluster_Connectors:ConnectorV_Late_V2"
 			(at 107.95 224.79 0)
 			(effects
 				(font
