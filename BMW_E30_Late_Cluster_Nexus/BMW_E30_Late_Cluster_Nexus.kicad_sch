@@ -8734,6 +8734,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 344.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffdb4351-c0d6-4d92-8e70-cc539c21994d")
 		)
@@ -8821,6 +8830,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 347.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51ec4f0e-523b-4bc7-95c5-2a835c9b4528")
 		)
@@ -8883,6 +8901,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 208.28 106.68 0)
 			(effects
 				(font
@@ -9028,6 +9055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 375.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88b030be-16c8-44ca-89a4-4b9f189f268f")
 		)
@@ -9099,6 +9135,15 @@
 			)
 		)
 		(property "Digikey Part No." ""
+			(at 375.92 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 375.92 173.99 0)
 			(effects
 				(font
@@ -9236,6 +9281,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 38.1 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 38.1 215.9 0)
 			(effects
 				(font
@@ -9389,6 +9443,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 227.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "60d8789c-89d2-45fa-8839-8d2f2754bbbb")
 		)
@@ -9489,7 +9552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150R"
+		(property "Value" "150R 1W"
 			(at 361.95 106.6799 0)
 			(effects
 				(font
@@ -9507,7 +9570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773271&DocType=DS&DocLang=English"
 			(at 359.41 105.41 0)
 			(effects
 				(font
@@ -9517,6 +9580,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 359.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" "A131434CT-ND"
 			(at 359.41 105.41 0)
 			(effects
 				(font
@@ -9726,6 +9798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 302.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab46a26f-b617-4789-8f51-06c11fbe21f3")
 		)
@@ -9862,6 +9943,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 361.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5abca1ff-d04a-4274-b8ef-42f8ad4e5298")
 		)
@@ -9923,6 +10013,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 139.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 139.7 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,6 +10091,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 246.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 246.38 106.68 0)
 			(effects
 				(font
@@ -10268,6 +10376,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 344.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "482c2424-4beb-46f8-a0c2-0d90a216a6ec")
 		)
@@ -10330,6 +10447,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 284.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 284.48 106.68 0)
 			(effects
 				(font
@@ -10426,6 +10552,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 105.41 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8eedf8a7-c9b7-4547-ac7c-6efdd3638e74")
 		)
@@ -10487,6 +10622,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 265.43 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 265.43 173.99 0)
 			(effects
 				(font
@@ -10557,6 +10701,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 290.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 290.83 63.5 0)
 			(effects
 				(font
@@ -10833,6 +10986,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 344.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ce9a029-33d7-438b-8033-9f4ad69e40ea")
 		)
@@ -11101,6 +11263,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 381 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ffef7c3-69c9-47e6-b0a6-c837549ebe88")
 		)
@@ -11235,6 +11406,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 107.95 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "6d4e4a7e-e242-4e49-b778-1825644a8c82")
 		)
@@ -11346,6 +11526,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x13, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 54.61 105.41 0)
 			(effects
 				(font
@@ -11628,6 +11817,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5790d05e-1f88-4469-a15b-d2fb1cd4b93e")
 		)
@@ -11764,6 +11962,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 247.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08dac267-53f7-4787-8e97-a1d6ca64ced2")
 		)
@@ -11891,6 +12098,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 208.28 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 208.28 231.14 0)
 			(effects
 				(font
@@ -12051,6 +12267,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 227.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 227.33 106.68 0)
 			(effects
 				(font
@@ -12262,6 +12487,15 @@
 			)
 		)
 		(property "Digikey Part No." ""
+			(at 299.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 299.72 173.99 0)
 			(effects
 				(font
@@ -12605,6 +12839,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 54.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "25"
 			(uuid "15b81884-2755-4792-a442-cad6bb7d7295")
 		)
@@ -12737,6 +12980,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x13, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 54.61 53.34 0)
 			(effects
 				(font

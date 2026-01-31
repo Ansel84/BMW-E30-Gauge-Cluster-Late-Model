@@ -1527,6 +1527,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 148.59 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a3ac22ea-387f-4dff-a36e-9744976df0ae")
 		)
@@ -1663,6 +1672,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0c868e5-cc7f-4396-883a-4684fd6d2637")
 		)
@@ -1728,6 +1746,15 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, TO-92"
+			(at 146.05 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 146.05 95.25 0)
 			(effects
 				(font
@@ -2072,6 +2099,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 128.27 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "957c4150-ac56-465b-ad00-6dbf49d32039")
 		)
@@ -2134,6 +2170,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 224.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 224.79 114.3 0)
 			(effects
 				(font
@@ -2211,6 +2256,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 88.9 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "456b5192-634b-431f-86fd-f6d7c85242e1")
 		)
@@ -2273,6 +2327,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 110.49 87.63 0)
 			(effects
 				(font
@@ -2362,6 +2425,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 190.5 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,6 +2709,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd097f12-bbdd-4842-b56d-9213db6e8cb9")
 		)
@@ -2699,6 +2780,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 168.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -2777,6 +2867,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" ""
+			(at 224.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ea7e286-3da3-4cea-a6bf-b4ba13c8de1e")
 		)
@@ -2839,6 +2938,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 212.09 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
 			(at 212.09 96.52 0)
 			(effects
 				(font

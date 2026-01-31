@@ -624,6 +624,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Part #",
+          "name": "Digikey Part #",
+          "show": false
         }
       ],
       "filter_string": "",
