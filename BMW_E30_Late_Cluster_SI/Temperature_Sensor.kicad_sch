@@ -1899,12 +1899,6 @@
 		(uuid "000736de-1eb1-4215-907a-9c3c26b3d0fb")
 	)
 	(junction
-		(at 215.9 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07a818c4-a392-4242-8f5c-dc0c280585e2")
-	)
-	(junction
 		(at 162.56 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1939,12 +1933,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2931436c-ac19-404d-915c-28c32c695472")
-	)
-	(junction
-		(at 201.93 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3371e16c-c0f7-480c-a04d-6299ce52fb74")
 	)
 	(junction
 		(at 116.84 106.68)
@@ -2276,16 +2264,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 137.16) (xy 215.9 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f1a994-e8e6-4715-9a56-ad528e2901d3")
-	)
-	(wire
-		(pts
 			(xy 101.6 168.91) (xy 109.22 168.91)
 		)
 		(stroke
@@ -2296,7 +2274,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 137.16) (xy 201.93 140.97)
+			(xy 218.44 132.08) (xy 218.44 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 124.46) (xy 201.93 118.11)
+			(xy 218.44 124.46) (xy 218.44 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2536,16 +2514,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 118.11) (xy 243.84 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7260b60c-663b-4487-bdb3-2bd549976ecc")
-	)
-	(wire
-		(pts
 			(xy 243.84 66.04) (xy 266.7 66.04)
 		)
 		(stroke
@@ -2573,16 +2541,6 @@
 			(type default)
 		)
 		(uuid "7b6f7920-b357-4d1c-a115-fcbb586549dc")
-	)
-	(wire
-		(pts
-			(xy 215.9 124.46) (xy 215.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8359c52d-95e0-4e71-9f1c-7ea2914941c7")
 	)
 	(wire
 		(pts
@@ -2683,16 +2641,6 @@
 			(type default)
 		)
 		(uuid "a385ab43-6c73-47dd-8285-5b56f9f1b9dd")
-	)
-	(wire
-		(pts
-			(xy 215.9 132.08) (xy 215.9 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4e45970-2929-4daf-aa38-9b20ebb74853")
 	)
 	(wire
 		(pts
@@ -2876,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 118.11) (xy 215.9 118.11)
+			(xy 218.44 118.11) (xy 243.84 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2903,16 +2851,6 @@
 			(type default)
 		)
 		(uuid "fb92bb03-99e5-4b0a-9993-31324541d548")
-	)
-	(wire
-		(pts
-			(xy 201.93 132.08) (xy 201.93 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc948852-0859-4972-bd55-a301e7a35a2e")
 	)
 	(hierarchical_label "IC1_P19"
 		(shape output)
@@ -3633,7 +3571,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 201.93 128.27 0)
+		(at 218.44 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3642,7 +3580,7 @@
 		(fields_autoplaced yes)
 		(uuid "29253e84-d97b-4874-9fa9-77b9c4347683")
 		(property "Reference" "C13"
-			(at 205.74 126.1109 0)
+			(at 222.25 126.1109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3589,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 205.74 128.6509 0)
+			(at 222.25 128.6509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +3598,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D9.0mm_P2.50mm"
-			(at 202.8952 132.08 0)
+			(at 219.4052 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 128.27 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,7 +3616,7 @@
 			)
 		)
 		(property "Description" "16v"
-			(at 201.93 128.27 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3625,7 @@
 			)
 		)
 		(property "Vendor Link" ""
-			(at 201.93 128.27 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,85 +5852,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 215.9 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8519a2a-78b3-4636-bfa8-30194c9ff882")
-		(property "Reference" "C17"
-			(at 219.71 126.9999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68n"
-			(at 219.71 129.5399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
-			(at 216.8652 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 215.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor Link" ""
-			(at 215.9 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bf4eda6-4643-40c7-a37a-2da261513a7a")
-		)
-		(pin "1"
-			(uuid "77302dce-653b-4c57-a4f2-2ae6378d27b9")
-		)
-		(instances
-			(project "BMW_E30_Late_Cluster_SI"
-				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61/84ca9cc6-3e51-42c7-8f6d-11ef7495b962"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 81.28 53.34 0)
 		(unit 1)
@@ -6150,7 +6009,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 201.93 140.97 0)
+		(at 218.44 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6159,7 +6018,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecd5930b-ed54-460c-bcbf-5a0d87c78ea1")
 		(property "Reference" "#PWR018"
-			(at 201.93 146.05 0)
+			(at 218.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6027,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 201.803 144.78 0)
+			(at 218.313 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 142.24 0)
+			(at 218.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 142.24 0)
+			(at 218.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 201.93 140.97 0)
+			(at 218.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

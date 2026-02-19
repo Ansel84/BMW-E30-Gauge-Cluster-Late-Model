@@ -5650,6 +5650,12 @@
 		(uuid "5f425743-2e0c-4d09-8446-0bb0c6211764")
 	)
 	(junction
+		(at 106.68 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e741c59-3250-4c9e-bdf2-dfa216791b44")
+	)
+	(junction
 		(at 146.05 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5720,6 +5726,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4322a6b-f662-4b7d-baa5-9d673578f155")
+	)
+	(junction
+		(at 96.52 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2751ceb-0b4d-4385-b63d-a0900bc3f962")
 	)
 	(junction
 		(at 308.61 218.44)
@@ -5796,6 +5808,16 @@
 	(no_connect
 		(at 208.28 207.01)
 		(uuid "e264420b-05a7-4091-94d8-3e299247d9d3")
+	)
+	(wire
+		(pts
+			(xy 96.52 170.18) (xy 96.52 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031c13bb-1603-411e-934d-7567d8a38db4")
 	)
 	(wire
 		(pts
@@ -5956,16 +5978,6 @@
 			(type default)
 		)
 		(uuid "0c44c2fc-0273-4816-9d86-750ccd18e7cb")
-	)
-	(wire
-		(pts
-			(xy 120.65 170.18) (xy 124.46 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb36425-c440-4bb9-9743-6fee8c1b22d8")
 	)
 	(wire
 		(pts
@@ -6289,6 +6301,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 170.18) (xy 106.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf81f7b-9dd6-42ba-adaa-08b204b9f623")
+	)
+	(wire
+		(pts
 			(xy 203.2 203.2) (xy 208.28 203.2)
 		)
 		(stroke
@@ -6356,6 +6378,16 @@
 			(type default)
 		)
 		(uuid "318f5f29-fd7f-4515-be84-812be5c49d2c")
+	)
+	(wire
+		(pts
+			(xy 96.52 166.37) (xy 96.52 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321ba00f-e3a8-4576-a24b-136d3da8643c")
 	)
 	(wire
 		(pts
@@ -6436,6 +6468,16 @@
 			(type default)
 		)
 		(uuid "36f2a776-e1e4-49d2-bbfc-7423ec4d49a5")
+	)
+	(wire
+		(pts
+			(xy 96.52 185.42) (xy 96.52 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38910775-8dea-4027-b147-7f02200413a1")
 	)
 	(wire
 		(pts
@@ -6746,6 +6788,16 @@
 			(type default)
 		)
 		(uuid "5432e80a-f524-47d7-9531-a5fdef3737b8")
+	)
+	(wire
+		(pts
+			(xy 106.68 170.18) (xy 124.46 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5439cb03-c175-41e3-8f1f-d9d048a05ead")
 	)
 	(wire
 		(pts
@@ -7269,6 +7321,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 193.04) (xy 124.46 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90165ace-3e00-41a7-9d95-f34c0fd21e6a")
+	)
+	(wire
+		(pts
 			(xy 40.64 115.57) (xy 40.64 120.65)
 		)
 		(stroke
@@ -7386,16 +7448,6 @@
 			(type default)
 		)
 		(uuid "96d69f5a-0cbf-4f2b-9222-95c1fc09d9fe")
-	)
-	(wire
-		(pts
-			(xy 120.65 193.04) (xy 124.46 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97476933-ad69-4e00-985b-6a4e033e3872")
 	)
 	(wire
 		(pts
@@ -8229,6 +8281,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 193.04) (xy 106.68 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de78125b-cd04-4088-b9ce-0bc2af53dd54")
+	)
+	(wire
+		(pts
 			(xy 304.8 39.37) (xy 304.8 44.45)
 		)
 		(stroke
@@ -9009,22 +9071,22 @@
 	)
 	(global_label "IC3_P7"
 		(shape input)
-		(at 120.65 170.18 180)
+		(at 96.52 166.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1b9f3168-5435-4e03-8307-9f34b11bbce9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.1334 170.18 0)
+			(at 96.52 156.8534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9284,28 +9346,6 @@
 		(uuid "2c80c718-1da6-4675-b571-06f7b4023d50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 192.4739 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IC3_P7"
-		(shape input)
-		(at 120.65 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d78fba6-1729-420a-b0bd-db9c8890ccc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.1334 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14422,6 +14462,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
+		(at 96.52 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6894618f-43b1-4b4d-8021-06bbf9833e97")
+		(property "Reference" "#PWR060"
+			(at 96.52 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 96.393 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 96.52 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12119e3c-73e4-489e-bc72-00da192d0779")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
 		(at 330.2 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18632,6 +18738,85 @@
 			(project "BMW_E30_Late_Cluster_SI"
 				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
 					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8519a2a-78b3-4636-bfa8-30194c9ff882")
+		(property "Reference" "C17"
+			(at 100.33 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68n"
+			(at 100.33 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 97.4852 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bf4eda6-4643-40c7-a37a-2da261513a7a")
+		)
+		(pin "1"
+			(uuid "77302dce-653b-4c57-a4f2-2ae6378d27b9")
+		)
+		(instances
+			(project "BMW_E30_Late_Cluster_SI"
+				(path "/00d578f4-1582-4e4e-9a07-e5462d38fb61"
+					(reference "C17")
 					(unit 1)
 				)
 			)

@@ -288,6 +288,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88c22a10-d59e-43fc-9e61-57775e408b7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/f5250995-ad25-452d-9be6-00c5cb87d55b")
 		(sheetname "/Temperature Sensor/")
@@ -427,6 +440,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f198dd22-7aa3-4fb5-b57b-db16a4cf2f4b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -573,6 +599,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "271dad20-c821-4668-a1cc-1c5be6991202")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4807f8e4-ec3d-4e29-a43c-9c11088048d9")
 			(effects
 				(font
 					(size 1 1)
@@ -732,6 +771,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98e20c9b-6d3c-4f63-81bc-616c52543f03")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1381,6 +1433,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4432a59-86f9-4302-98ff-aab30ae0ce8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?92*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/ab0c94ef-228f-439b-924b-b34bbc05fbe1")
 		(sheetname "/Temperature Sensor/")
@@ -1621,6 +1686,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b47c2a4-3b0b-4ae2-b581-0711331084d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c983986b-10d8-4cce-ad3a-8f5b24c84720")
 		(sheetname "/")
@@ -1760,6 +1838,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a08c4352-63ca-4a0e-a415-8fabc4844cad")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1907,6 +1998,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8172d14d-ce7d-47c1-bac1-ce26e83fa6fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/5e863c2d-2bdc-4c4b-b982-8e2357618d60")
 		(sheetname "/Temperature Sensor/")
@@ -2046,6 +2150,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71e5275d-b5e1-4211-8262-048bc1f747ee")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2693,6 +2810,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "492774a5-7554-4e06-bd52-27d50db64819")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/22685101-147a-4cc0-83ca-cc606158dbf8")
 		(sheetname "/Temperature Sensor/")
@@ -2832,6 +2962,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9783c4d-b355-4961-97a6-8362d28fee64")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3019,6 +3162,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e052b64d-bde9-4759-9e2d-0b83a0565e0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/1b8a018d-5a0d-4836-b33b-76202b27de9c")
 		(sheetname "/Temperature Sensor/")
@@ -3158,6 +3314,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b849878-72cc-40f8-93d7-d13b0d0cdbb3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3303,6 +3472,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3426b7b-31aa-4e0a-885d-6581de729847")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3547,6 +3729,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26cc5909-78e8-4285-83a6-89038910d017")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c1699df5-a1e5-409b-8dfd-e700faa96723")
 		(sheetname "/")
@@ -3730,6 +3925,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "225c1573-8fde-4b57-b99f-30a66496e218")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/ff28a5d6-43e1-4ef8-9ae0-62718d78561a")
 		(sheetname "/Indicator Lights/")
@@ -3869,6 +4077,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8c9e2fa-8cc2-4371-85d8-76a824702a62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "628721b8-01f3-4529-aff3-cee92ec8f848")
 			(effects
 				(font
 					(size 1 1)
@@ -4040,6 +4261,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b65c639-09df-4b34-8424-2c4514ea9cc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/1584a031-88d7-4c4e-bfbd-4142aaaec348")
 		(sheetname "/")
@@ -4196,6 +4430,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68ace37b-f0f9-4cee-9bb8-07e30eb3e044")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/a217e55d-ff13-4217-bd1b-a9874af4210d")
 		(sheetname "/Indicator Lights/")
@@ -4335,6 +4582,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "335d71b4-166f-41fb-b5f2-7a6e6050c3fa")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4482,6 +4742,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70be982a-d60b-4705-9baf-bf81a2d4fde8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/b514b37b-b350-4f0e-be18-2fa90034f2b7")
 		(sheetname "/Indicator Lights/")
@@ -4621,6 +4894,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bc88cce-710e-4d45-8696-35ac5ae9d467")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5044,6 +5330,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f854c58a-b8e6-4dd5-b030-ead1f90b84a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/fae2affb-089b-461e-9bba-0e323e664203")
 		(sheetname "/Indicator Lights/")
@@ -5198,6 +5497,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e8613c3-3983-4f29-a230-1b9336fec495")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5442,6 +5754,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59f432fc-595f-4412-b164-566ef96c91a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9d1b3aeb-0b02-4984-ad4d-77b46e81e3cd")
 		(sheetname "/")
@@ -5581,6 +5906,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25915bcf-3b1c-4dc7-abc8-1ab03a6951a6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5728,6 +6066,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bd184a5-164c-4a09-bbf8-f9848dfdeb83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/71873fa4-c751-4982-9076-2fa2d2ad96d1")
 		(sheetname "/")
@@ -5871,6 +6222,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2bc00d1-23da-4cc6-b190-1ec1021da1c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/e73e2835-d138-40fd-9e3e-787c771a083b")
 		(sheetname "/")
@@ -5994,6 +6358,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d8889e9-c773-42df-8ea2-e39ad400f6bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b18c40a3-e77e-48c2-9714-e492ee6f9990")
 		(sheetname "/")
@@ -6113,7 +6490,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6133,6 +6510,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" "https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPTC081LGBN-RC/775902"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9977a533-74e0-4282-b0d2-cc7088c5fd84")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7136,6 +7526,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a11d0d5-94fe-4008-b212-610e3ad4d86b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b20dc3cc-191d-4735-8b78-980940eafd5d")
 		(sheetname "/")
@@ -7325,6 +7728,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b6a2d18-1781-4700-8089-2f5329390ff5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2cfebe3-c3dc-4117-91bd-70e9347a85d8")
 			(effects
 				(font
 					(size 1 1)
@@ -7571,6 +7987,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0723337f-d905-4912-8efa-6265a8fa0e63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/78847446-f086-49ec-a9f5-ffbe6be389c5")
 		(sheetname "/Temperature Sensor/")
@@ -7714,6 +8143,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9690c0c6-4bc3-4dec-9062-34da945aab8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/cd774bf0-cdaa-4a54-8eb0-9d85cf205537")
 		(sheetname "/")
@@ -7833,6 +8275,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccd0481c-7294-48b7-9705-9cc7bc2457f1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7980,6 +8435,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17c7667c-899b-43e0-a4aa-71c1efb04e37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/5f161b51-2bc6-4e6d-8700-d24e7067d925")
 		(sheetname "/Indicator Lights/")
@@ -8119,6 +8587,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "788ad648-625a-41f9-8644-7d1feee84b7e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8286,6 +8767,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f20f6b77-8a24-4b97-9477-60c6969d07a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/51971e55-f7ad-467a-8eb9-4f143270638c")
 		(sheetname "/")
@@ -8440,6 +8934,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28cb1be1-d982-4411-b6a2-be8bed83685e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8684,6 +9191,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bdcb8e8-c805-495e-86dc-1363fa4fd829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/abab73e5-ac00-4f4c-9dcb-e88ec5fad847")
 		(sheetname "/Indicator Lights/")
@@ -8823,6 +9343,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "753ce560-e74c-4597-9e2d-2eb94d1e95d0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8996,6 +9529,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2575b9b5-af0c-47d2-9a53-00b142a8ab30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/a50bc001-bb0d-411c-99fa-c57f55a97269")
 		(sheetname "/")
@@ -9152,6 +9698,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "997a3023-a516-4a31-991c-6cdd8f452b3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/1200dd48-ec20-4593-83ba-45ed95171592")
 		(sheetname "/Temperature Sensor/")
@@ -9295,6 +9854,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "474c4866-c21d-4df5-a76a-1cdb1434a346")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/afc3ad00-3c65-4f9f-9c1e-ac3dd0f38e08")
 		(sheetname "/Temperature Sensor/")
@@ -9434,6 +10006,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "074d28da-42c6-428e-a730-1cdeaf180b59")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9601,6 +10186,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b78f714f-bb94-4eed-99c6-a5498c216c4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/e87bb47e-56d7-4a9d-ad8f-fa279d2a03f4")
 		(sheetname "/Temperature Sensor/")
@@ -9740,6 +10338,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "127ee3bc-2d45-4dcf-a422-749a2bad6b92")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9914,6 +10525,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "230d456c-3085-4bcc-88a8-8e56af9d8594")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10101,6 +10725,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d48aa9ac-dc23-4d0b-ab9f-3c1429d60927")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/4c176eed-7602-466b-ba8c-7546a6be2dac")
 		(sheetname "/")
@@ -10219,6 +10856,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "295fdd96-4ac7-4c3f-9c50-382162b43301")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6833afa-aa41-4c31-87ff-3769b4f9b969")
 			(effects
 				(font
 					(size 1 1)
@@ -10795,6 +11445,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50b2810c-ed34-4e3e-8b9b-70e6f3eea984")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?92*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/baa7223c-76f6-4582-88cd-226cc643f546")
 		(sheetname "/Indicator Lights/")
@@ -11035,6 +11698,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89a45b52-c452-46c0-a864-9291afb5f329")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/30b276bc-d98e-472c-ae5b-ab1e623d5f05")
 		(sheetname "/")
@@ -11123,7 +11799,7 @@
 				)
 			)
 		)
-		(property "Value" "200R"
+		(property "Value" "200k"
 			(at 3.81 1.92 90)
 			(layer "F.Fab")
 			(uuid "317ed785-99f5-4ed4-bcdc-7ce286eb6533")
@@ -11154,6 +11830,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d37b7b2-f087-4eb8-9b23-19f537bee143")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11327,6 +12016,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c00df24-b371-43ca-b7a5-0445a8fffbc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/48e3310b-06dd-4a46-861c-9378ba1d6aa1")
 		(sheetname "/")
@@ -11483,6 +12185,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "894e4cc7-80fc-40b6-ae70-4a9296726bcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/52fca969-a1c7-4e51-9ae8-547a133bc150")
 		(sheetname "/Indicator Lights/")
@@ -11602,6 +12317,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8442562a-6302-40cd-8a0d-9153207e56c6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11747,6 +12475,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db5166ee-93bb-4497-a3c0-cdc18bfdea55")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11991,6 +12732,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c357a383-c33e-40c6-ae54-085db0fab776")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/80258f2f-9792-46cf-9545-a6875a08dbdd")
 		(sheetname "/")
@@ -12130,6 +12884,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93549937-acbb-4244-a7f6-e0e11ea9c034")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12277,6 +13044,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1539bfe3-0cfe-4262-b325-6f230d326e77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b572d110-d921-41c1-a8fa-21443dab8bf2")
 		(sheetname "/")
@@ -12418,6 +13198,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e00dd4b4-e16a-4ea1-9e3f-6b9d43e1a814")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12658,6 +13451,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56c1425d-0e88-4d10-8af1-0f3aee272ac2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13058,6 +13864,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db4f2d4f-d885-4b03-bd59-0637460d4306")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b662bc0e-6d7b-4fd7-8c04-7b80494e034f")
 		(sheetname "/")
 		(sheetfile "BMW_E30_Late_Cluster_SI.kicad_sch")
@@ -13192,6 +14011,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b557c6af-e574-416b-91b4-6377c921bee8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13597,6 +14429,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "032ae0c5-6984-44d4-b323-5f8f8dcf2cab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/2c1c6eab-d601-4a4c-8b87-95baf1ada474")
 		(sheetname "/")
@@ -13736,6 +14581,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b74e3f5-bbd5-4461-a452-bdc2f09358f0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13899,6 +14757,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2781022-8683-4802-a96d-6a538b9ebacf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14115,6 +14986,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e9ed215-3f4b-425f-a89c-16c01fe5864f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/0f7ae590-c508-4cbf-99c8-fd335599c4f3")
 		(sheetname "/")
@@ -14271,6 +15155,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb7e7818-7d91-4987-a718-d96bb1cd10ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/651fc39f-f4e6-4143-96a4-8195dedd47c0")
 		(sheetname "/Temperature Sensor/")
@@ -14414,6 +15311,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3d27e5c-dd4f-4b58-85ca-fec285cf9ac0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8c483205-7d90-435b-87d9-ef7eb44e3e94")
 		(sheetname "/")
@@ -14553,6 +15463,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "416f29dc-1093-49fc-9b8b-3e4838038b19")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14726,6 +15649,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f74a127-fe98-48fb-a4b9-838ebfd19f1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?35*")
 		(path "/c6001e07-c0a3-4859-8eef-d6ff4e7c0c8d")
 		(sheetname "/")
@@ -14878,6 +15814,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56381542-8f0a-4d5b-8336-bac262e7d24e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15275,6 +16224,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b5f435a-55d4-4775-81a5-0a48efef4335")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/6187f32f-4e81-412f-be2a-6f9f494541d1")
 		(sheetname "/Temperature Sensor/")
@@ -15431,6 +16393,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11e233ad-03fe-4359-b5a0-9e5062735e57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/b082fe3c-c69c-4e28-a755-351e4e84d42f")
 		(sheetname "/Indicator Lights/")
@@ -15572,6 +16547,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b131ec6c-1d4d-4196-8d23-fdb02500346f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15816,6 +16804,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "589b7ab7-7dcb-47e6-9885-d331075d3502")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/61a6ba58-7c64-4ee2-a203-5359ea56a518")
 		(sheetname "/")
@@ -15999,6 +17000,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efa5f89c-5d92-4674-9075-9d0fddb45c2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/d28f813a-30f0-4f0b-b69f-af24d61c9702")
 		(sheetname "/")
@@ -16118,6 +17132,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83469117-5635-43a6-805d-80e1f36841ab")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16278,6 +17305,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb415e87-ef04-4d4c-a6ab-8849b82c8011")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/234b832f-b563-479c-aa7e-b9ffcbef0791")
 		(sheetname "/")
@@ -16417,6 +17457,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af3f1b0f-3ba8-4506-a4e2-d049a19e4640")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16572,6 +17625,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "549c39cf-0080-4663-8037-7ada66af7a64")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16792,6 +17858,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dde1942-5466-44ee-9d62-1f00ff5edb9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0ec44112-91a2-4140-b341-21f996ca9369")
 		(sheetname "/")
@@ -16935,6 +18014,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f50d3b37-e97a-4bd5-93ac-d4cdc667af51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/f18f2b35-9bb2-466d-85bf-1c7d447a64bb")
 		(sheetname "/")
@@ -17054,6 +18146,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8d03694-7a07-4c69-ab7c-ff5e5c3fa2b7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17196,6 +18301,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f7b0ba4-fa50-47c2-b9d5-5e2c6475c743")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17455,6 +18573,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d148f92-ac76-40b8-a08a-bf1cd416a84d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*DO?41*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/026fd0bd-c594-453a-aaaa-353463b66a1c")
 		(sheetname "/Temperature Sensor/")
@@ -17607,6 +18738,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10fd9dfe-ba61-4946-ba28-a241665ff543")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17781,6 +18925,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8171c393-4f62-41af-94df-d046c51d767a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17968,6 +19125,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e189546-dba1-4be8-a14f-5e45d5cb4b65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/678b20b8-764d-4ec5-9473-f8ccbdda68d9")
 		(sheetname "/")
@@ -18127,6 +19297,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15c75ce7-8331-4f0a-bc31-4d5ac7b4d096")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18314,6 +19497,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcbe7862-18d9-4ef2-b16d-cb7e4768213e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f4978bf7-cae9-4b64-9698-6f46f6875a7e")
 		(sheetname "/")
@@ -18453,6 +19649,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b6dffea-7317-4bb8-a21e-61c5448f8a1a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18640,6 +19849,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bead6256-b09c-41b9-9d76-f974e3e086dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/358be573-0fa2-4ecd-b509-0920d733937d")
 		(sheetname "/")
@@ -18759,6 +19981,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9bc4fdf-250d-4368-9639-9804ce244fc7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19230,6 +20465,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79eb5190-3bc3-460d-9dfb-6ea45fe454ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/e0f1cbdf-4889-4b09-a35b-314e04598fa9")
 		(sheetname "/")
@@ -19349,6 +20597,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ab4dc5f-104e-41d8-8282-b8433f2e8057")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19496,6 +20757,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "495cb303-3a76-4dff-952c-1b1579b6ca8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/eafb0f90-f580-4e3d-b5e9-de3386d432b4")
 		(sheetname "/Temperature Sensor/")
@@ -19639,6 +20913,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28eba33d-f163-49aa-b09a-444124bdf0ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/f0d56d2b-f0f3-4568-b5b3-d010e40e7466")
 		(sheetname "/")
@@ -19758,6 +21045,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c99cb03d-b99b-40fb-9340-036affc1d9c3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19923,6 +21223,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a087dcde-b136-4134-b0d0-0f0837385b32")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20167,6 +21480,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "599b35e6-416d-4b8d-9e66-6cd3283d3f59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/941fd687-656a-464f-a653-fdb95a6de908")
 		(sheetname "/Indicator Lights/")
@@ -20348,6 +21674,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c67cc1f5-182c-4e5c-8274-6925ab80a699")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20594,6 +21933,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c3da29c-ed73-423e-9209-8d5564de8cc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?92*")
 		(path "/a9806b37-8426-42ba-8605-725dd79c5ce2")
 		(sheetname "/")
@@ -20834,6 +22186,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d84a314f-ab54-4d65-87ea-c182dcff8121")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/12dc6186-71e9-4156-bca7-d0ee6574ed06")
 		(sheetname "/")
@@ -20953,6 +22318,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce5d4d8d-52bf-4861-a4f3-1ce7ed37de2e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21128,6 +22506,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49989df5-4326-4764-8e56-23c6b3fb525f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21521,6 +22912,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4392df1e-d7ec-48e4-a858-90f5c655c9ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/4070e149-15ef-4e23-a1b5-55f08238249d")
 		(sheetname "/")
@@ -21673,6 +23077,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1addca4d-1390-4148-b70d-a26385d46402")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21852,6 +23269,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40358f00-35be-4cf3-a4ba-5cf0885ca858")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/584cdf17-4b55-4e0a-92ab-d7846e8a565c")
 		(sheetname "/Indicator Lights/")
@@ -21991,6 +23421,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4289dd46-cd30-4623-b022-3645a29e256f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22239,6 +23682,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e6b351e-8ad3-4561-966c-e01a58df69ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/cf025ba9-d33a-4ad7-b2a3-449c64d6f22c")
 		(sheetname "/Indicator Lights/")
@@ -22378,6 +23834,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Link" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2da44583-8831-42ba-8c66-c20c4fb35698")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22538,6 +24007,19 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe8aeddd-04f0-4564-9751-ba57e1554f00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b04c7dca-233f-4936-a882-7f55988b8ad8/a8694a16-9945-4884-a8fb-d4840f81cfaa")
 		(sheetname "/Indicator Lights/")
@@ -22681,10 +24163,23 @@
 				)
 			)
 		)
+		(property "Vendor Link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5c449be-f9e9-44df-be43-6a0f1d45657c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
-		(path "/84ca9cc6-3e51-42c7-8f6d-11ef7495b962/e8519a2a-78b3-4636-bfa8-30194c9ff882")
-		(sheetname "/Temperature Sensor/")
-		(sheetfile "Temperature_Sensor.kicad_sch")
+		(path "/e8519a2a-78b3-4636-bfa8-30194c9ff882")
+		(sheetname "/")
+		(sheetfile "BMW_E30_Late_Cluster_SI.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.62 -1.37)
@@ -41011,6 +42506,44 @@
 		)
 	)
 	(zone
+		(net 11)
+		(net_name "EG_2+")
+		(layer "F.Cu")
+		(uuid "506a11d8-b104-4c34-b62f-47b8b2c87134")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 211.345519 134.418146) (xy 211.699072 134.771699) (xy 213.138278 134.3) (xy 213.600707 132.299293)
+				(xy 212.2 132.356442)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 211.345519 134.418146) (xy 211.699072 134.771699) (xy 213.138278 134.3) (xy 213.600707 132.299293)
+				(xy 212.2 132.356442)
+			)
+		)
+	)
+	(zone
 		(net 13)
 		(net_name "GNDPWR")
 		(layer "F.Cu")
@@ -42555,51 +44088,6 @@
 				(xy 160.286568 158.127511) (xy 160.276624 158.058353) (xy 160.305649 157.994797) (xy 160.311681 157.988319)
 				(xy 160.5015 157.7985) (xy 161.077289 157.22271) (xy 161.102953 157.203017) (xy 161.176614 157.160489)
 				(xy 162.950285 155.386819) (xy 163.011608 155.353334) (xy 163.037966 155.3505) (xy 177.476 155.3505)
-			)
-		)
-	)
-	(zone
-		(net 11)
-		(net_name "EG_2+")
-		(layer "F.Cu")
-		(uuid "de4040ef-54f2-4ee5-a3e0-499bcbfbef89")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 211.345519 134.418146) (xy 211.699072 134.771699) (xy 213.138278 134.3) (xy 213.600707 132.299293)
-				(xy 212.2 132.356442)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 213.593781 132.303004) (xy 213.597542 132.311131) (xy 213.597251 132.314243) (xy 213.139763 134.293571)
-				(xy 213.134562 134.30086) (xy 213.132008 134.302054) (xy 212.989024 134.348918) (xy 212.98538 134.3495)
-				(xy 212.55796 134.3495) (xy 212.467598 134.373713) (xy 212.443386 134.3802) (xy 212.443382 134.380201)
-				(xy 212.340661 134.439508) (xy 212.340656 134.439512) (xy 212.161289 134.618878) (xy 212.15666 134.621723)
-				(xy 211.705904 134.769459) (xy 211.696975 134.768779) (xy 211.693987 134.766614) (xy 211.351047 134.423674)
-				(xy 211.34762 134.415401) (xy 211.34851 134.410927) (xy 211.363416 134.374961) (xy 211.368078 134.369488)
-				(xy 211.4149 134.340609) (xy 211.540609 134.2149) (xy 211.633939 134.063589) (xy 211.689859 133.894833)
-				(xy 211.7005 133.790675) (xy 211.700499 133.563964) (xy 211.701389 133.559496) (xy 212.197138 132.363346)
-				(xy 212.203471 132.357017) (xy 212.207467 132.356137) (xy 213.585376 132.299918)
 			)
 		)
 	)
@@ -45467,128 +46955,10 @@
 		)
 	)
 	(zone
-		(net 20)
-		(net_name "Wheel_spd_output")
-		(layer "B.Cu")
-		(uuid "1413e253-d189-44ef-a860-1b1751d6084c")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30008)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 216.85 135.3) (xy 217.35 135.3) (xy 218.1 134.268174) (xy 217.1 132.299) (xy 216.1 134.268174)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 217.105298 132.314408) (xy 217.110432 132.319542) (xy 218.096757 134.261789) (xy 218.097447 134.270718)
-				(xy 218.095789 134.273966) (xy 217.353504 135.295179) (xy 217.345868 135.299856) (xy 217.34404 135.3)
-				(xy 216.85596 135.3) (xy 216.847687 135.296573) (xy 216.846496 135.295179) (xy 216.10421 134.273966)
-				(xy 216.102118 134.265259) (xy 216.103242 134.261789) (xy 217.089568 132.319542) (xy 217.096369 132.313718)
-			)
-		)
-	)
-	(zone
-		(net 8)
-		(net_name "Temp_GND")
-		(layer "B.Cu")
-		(uuid "24f3c704-b758-488c-a73d-04a69509a73b")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30016)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 249.165686 135.148528) (xy 249.448529 134.865685) (xy 249.957373 133.954303) (xy 248.599293 132.299293)
-				(xy 248.088673 134.3)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 248.613957 132.317164) (xy 249.952314 133.948139) (xy 249.954913 133.956708) (xy 249.953485 133.961265)
-				(xy 249.44932 134.864267) (xy 249.447377 134.866836) (xy 249.173035 135.141178) (xy 249.164762 135.144605)
-				(xy 249.157521 135.142095) (xy 248.09465 134.304709) (xy 248.090273 134.296898) (xy 248.090553 134.292631)
-				(xy 248.593576 132.32169) (xy 248.598942 132.314524) (xy 248.607805 132.313249)
-			)
-		)
-	)
-	(zone
-		(net 21)
-		(net_name "Fuel_rate_input")
-		(layer "B.Cu")
-		(uuid "26edfbcf-af1d-4f7b-9e55-e21d7c0be16e")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30007)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 220.35 135.3) (xy 220.85 135.3) (xy 221.6 134.268174) (xy 220.6 132.299) (xy 219.6 134.268174)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 220.605298 132.314408) (xy 220.610432 132.319542) (xy 221.596757 134.261789) (xy 221.597447 134.270718)
-				(xy 221.595789 134.273966) (xy 220.853504 135.295179) (xy 220.845868 135.299856) (xy 220.84404 135.3)
-				(xy 220.35596 135.3) (xy 220.347687 135.296573) (xy 220.346496 135.295179) (xy 219.60421 134.273966)
-				(xy 219.602118 134.265259) (xy 219.603242 134.261789) (xy 220.589568 132.319542) (xy 220.596369 132.313718)
-			)
-		)
-	)
-	(zone
 		(net 13)
 		(net_name "GNDPWR")
 		(layer "B.Cu")
-		(uuid "38aa0311-b4d9-47ff-8afc-35f3b9b2c09d")
+		(uuid "147113fe-b77a-4337-adfc-b7846e7959bc")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
 		(priority 30013)
@@ -45617,21 +46987,19 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 231.113957 132.317164) (xy 232.452389 133.948229) (xy 232.454988 133.956798) (xy 232.453637 133.961214)
-				(xy 231.984695 134.828828) (xy 231.982675 134.831538) (xy 231.957107 134.857106) (xy 231.957107 134.857107)
-				(xy 231.630331 135.183883) (xy 231.1 134.733878) (xy 230.594246 134.304729) (xy 230.590156 134.296764)
-				(xy 230.590479 134.292921) (xy 231.093576 132.32169) (xy 231.098942 132.314524) (xy 231.107805 132.313249)
+				(xy 231.630331 135.183883) (xy 231.983884 134.83033) (xy 232.457373 133.954303) (xy 231.099293 132.299293)
+				(xy 230.588673 134.3)
 			)
 		)
 	)
 	(zone
-		(net 16)
-		(net_name "EG_2-")
+		(net 15)
+		(net_name "+12_T15")
 		(layer "B.Cu")
-		(uuid "3f0c1cee-a70d-40ff-b8b5-f46eae49d54f")
+		(uuid "2a92c47f-bb2c-42be-ab37-60c34242933a")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30006)
+		(priority 30005)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45650,16 +47018,87 @@
 		)
 		(polygon
 			(pts
-				(xy 209.85 135.3) (xy 210.35 135.3) (xy 211.1 134.268174) (xy 210.1 132.299) (xy 209.1 134.268174)
+				(xy 237.85 135.3) (xy 238.35 135.3) (xy 239.1 134.268174) (xy 238.1 132.299) (xy 237.1 134.268174)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 210.105298 132.314408) (xy 210.110432 132.319542) (xy 211.096757 134.261789) (xy 211.097447 134.270718)
-				(xy 211.095789 134.273966) (xy 210.353504 135.295179) (xy 210.345868 135.299856) (xy 210.34404 135.3)
-				(xy 209.85596 135.3) (xy 209.847687 135.296573) (xy 209.846496 135.295179) (xy 209.10421 134.273966)
-				(xy 209.102118 134.265259) (xy 209.103242 134.261789) (xy 210.089568 132.319542) (xy 210.096369 132.313718)
+				(xy 237.85 135.3) (xy 238.35 135.3) (xy 239.1 134.268174) (xy 238.1 132.299) (xy 237.1 134.268174)
+			)
+		)
+	)
+	(zone
+		(net 21)
+		(net_name "Fuel_rate_input")
+		(layer "B.Cu")
+		(uuid "343ef32e-9a7f-494a-8ba0-7a6671654ef6")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30007)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 220.35 135.3) (xy 220.85 135.3) (xy 221.6 134.268174) (xy 220.6 132.299) (xy 219.6 134.268174)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 220.35 135.3) (xy 220.85 135.3) (xy 221.6 134.268174) (xy 220.6 132.299) (xy 219.6 134.268174)
+			)
+		)
+	)
+	(zone
+		(net 8)
+		(net_name "Temp_GND")
+		(layer "B.Cu")
+		(uuid "3e9a3e30-8aea-4b09-8d13-047aa8e74341")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30016)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 249.165686 135.148528) (xy 249.448529 134.865685) (xy 249.957373 133.954303) (xy 248.599293 132.299293)
+				(xy 248.088673 134.3)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 249.165686 135.148528) (xy 249.448529 134.865685) (xy 249.957373 133.954303) (xy 248.599293 132.299293)
+				(xy 248.088673 134.3)
 			)
 		)
 	)
@@ -45694,13 +47133,13 @@
 		)
 	)
 	(zone
-		(net 18)
-		(net_name "Eng_temp_sensor")
+		(net 22)
+		(net_name "Tach_1+")
 		(layer "B.Cu")
-		(uuid "50672a82-269b-442b-a9ca-e5592c626519")
+		(uuid "517f38dd-79d4-4776-813e-b104e94bab71")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30014)
+		(priority 30000)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45719,28 +47158,26 @@
 		)
 		(polygon
 			(pts
-				(xy 245.665686 135.148528) (xy 245.948529 134.865685) (xy 246.457373 133.954303) (xy 245.099293 132.299293)
-				(xy 244.588673 134.3)
+				(xy 197.463569 134.641514) (xy 197.817122 134.995067) (xy 199.310835 134.3) (xy 199.600707 132.299293)
+				(xy 198.2 132.470922)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 245.113957 132.317164) (xy 246.452314 133.948139) (xy 246.454913 133.956708) (xy 246.453485 133.961265)
-				(xy 245.94932 134.864267) (xy 245.947377 134.866836) (xy 245.673035 135.141178) (xy 245.664762 135.144605)
-				(xy 245.657521 135.142095) (xy 244.59465 134.304709) (xy 244.590273 134.296898) (xy 244.590553 134.292631)
-				(xy 245.093576 132.32169) (xy 245.098942 132.314524) (xy 245.107805 132.313249)
+				(xy 197.463569 134.641514) (xy 197.817122 134.995067) (xy 199.310835 134.3) (xy 199.600707 132.299293)
+				(xy 198.2 132.470922)
 			)
 		)
 	)
 	(zone
-		(net 10)
-		(net_name "Temp_+Ub")
+		(net 14)
+		(net_name "Engine_spd_input")
 		(layer "B.Cu")
-		(uuid "5900fa27-f943-4814-bb41-4298ea95eee6")
+		(uuid "5de12832-3f79-4d1d-8a77-f9145de90118")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30002)
+		(priority 30009)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45759,28 +47196,26 @@
 		)
 		(polygon
 			(pts
-				(xy 254.065685 134.548528) (xy 254.348528 134.265685) (xy 253.5 132.285786) (xy 252.099293 132.299293)
-				(xy 252.685786 134.3)
+				(xy 224.495015 135.239932) (xy 224.848568 134.886379) (xy 225.457373 133.954303) (xy 224.099293 132.299293)
+				(xy 223.492486 134.3)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 253.500509 132.289207) (xy 253.50307 132.292951) (xy 254.345407 134.258404) (xy 254.345516 134.267358)
-				(xy 254.342926 134.271286) (xy 254.070011 134.544201) (xy 254.061738 134.547628) (xy 254.059664 134.547443)
-				(xy 252.692905 134.301282) (xy 252.68537 134.296443) (xy 252.683751 134.293058) (xy 252.103643 132.314133)
-				(xy 252.104605 132.30523) (xy 252.11158 132.299614) (xy 252.114751 132.299143) (xy 253.492203 132.285861)
+				(xy 224.495015 135.239932) (xy 224.848568 134.886379) (xy 225.457373 133.954303) (xy 224.099293 132.299293)
+				(xy 223.492486 134.3)
 			)
 		)
 	)
 	(zone
-		(net 15)
-		(net_name "+12_T15")
+		(net 25)
+		(net_name "Tach_2+")
 		(layer "B.Cu")
-		(uuid "6cb06cc9-8333-40d8-b23e-4b0947a5a8ee")
+		(uuid "6e1f87ae-a56c-4f34-800e-9382144fca6d")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30005)
+		(priority 30011)
 		(attr
 			(teardrop
 				(type padvia)
@@ -45799,16 +47234,15 @@
 		)
 		(polygon
 			(pts
-				(xy 237.85 135.3) (xy 238.35 135.3) (xy 239.1 134.268174) (xy 238.1 132.299) (xy 237.1 134.268174)
+				(xy 191.716116 134.83033) (xy 192.069669 135.183883) (xy 193.111329 134.3) (xy 192.600707 132.299293)
+				(xy 191.242627 133.954303)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 238.105298 132.314408) (xy 238.110432 132.319542) (xy 239.096757 134.261789) (xy 239.097447 134.270718)
-				(xy 239.095789 134.273966) (xy 238.353504 135.295179) (xy 238.345868 135.299856) (xy 238.34404 135.3)
-				(xy 237.85596 135.3) (xy 237.847687 135.296573) (xy 237.846496 135.295179) (xy 237.10421 134.273966)
-				(xy 237.102118 134.265259) (xy 237.103242 134.261789) (xy 238.089568 132.319542) (xy 238.096369 132.313718)
+				(xy 191.716116 134.83033) (xy 192.069669 135.183883) (xy 193.111329 134.3) (xy 192.600707 132.299293)
+				(xy 191.242627 133.954303)
 			)
 		)
 	)
@@ -45986,13 +47420,13 @@
 		)
 	)
 	(zone
-		(net 24)
-		(net_name "+12_T30")
+		(net 17)
+		(net_name "Tach_1-")
 		(layer "B.Cu")
-		(uuid "7c2dafab-ce06-4c02-9e45-4cc47769cf7e")
+		(uuid "71ab1657-3641-434a-85a7-afb15cc21c51")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30004)
+		(priority 30010)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46011,56 +47445,15 @@
 		)
 		(polygon
 			(pts
-				(xy 227.35 135.3) (xy 227.85 135.3) (xy 228.6 134.268174) (xy 227.6 132.299) (xy 226.6 134.268174)
+				(xy 195.216116 134.83033) (xy 195.569669 135.183883) (xy 196.611329 134.3) (xy 196.100707 132.299293)
+				(xy 194.742627 133.954303)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 227.605298 132.314408) (xy 227.610432 132.319542) (xy 228.596757 134.261789) (xy 228.597447 134.270718)
-				(xy 228.595789 134.273966) (xy 227.853504 135.295179) (xy 227.845868 135.299856) (xy 227.84404 135.3)
-				(xy 227.35596 135.3) (xy 227.347687 135.296573) (xy 227.346496 135.295179) (xy 226.60421 134.273966)
-				(xy 226.602118 134.265259) (xy 226.603242 134.261789) (xy 227.589568 132.319542) (xy 227.596369 132.313718)
-			)
-		)
-	)
-	(zone
-		(net 22)
-		(net_name "Tach_1+")
-		(layer "B.Cu")
-		(uuid "80360902-b243-4270-bb66-65e5f7668784")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 197.463569 134.641514) (xy 197.817122 134.995067) (xy 199.310835 134.3) (xy 199.600707 132.299293)
-				(xy 198.2 132.470922)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 199.594138 132.30355) (xy 199.598545 132.311345) (xy 199.598511 132.314446) (xy 199.311742 134.293739)
-				(xy 199.307164 134.301435) (xy 199.305099 134.302669) (xy 197.824542 134.991613) (xy 197.815596 134.991996)
-				(xy 197.811333 134.989278) (xy 197.468712 134.646657) (xy 197.465285 134.638384) (xy 197.465903 134.634632)
-				(xy 198.197639 132.47788) (xy 198.203542 132.471148) (xy 198.207294 132.470028) (xy 199.585509 132.301155)
+				(xy 195.216116 134.83033) (xy 195.569669 135.183883) (xy 196.611329 134.3) (xy 196.100707 132.299293)
+				(xy 194.742627 133.954303)
 			)
 		)
 	)
@@ -46196,13 +47589,13 @@
 		)
 	)
 	(zone
-		(net 19)
-		(net_name "EG_1+")
+		(net 23)
+		(net_name "Tach_2-")
 		(layer "B.Cu")
-		(uuid "a0f09fb4-fb99-4af3-a45f-5818c5296c43")
+		(uuid "a8803224-476a-4fd5-aa61-7e007d5c5ea7")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30012)
+		(priority 30001)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46221,17 +47614,89 @@
 		)
 		(polygon
 			(pts
-				(xy 202.216116 134.83033) (xy 202.569669 135.183883) (xy 203.611329 134.3) (xy 203.100707 132.299293)
-				(xy 201.742627 133.954303)
+				(xy 186.816117 134.23033) (xy 187.16967 134.583883) (xy 188.514215 134.3) (xy 189.100707 132.299293)
+				(xy 187.7 132.285787)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 203.102509 132.315541) (xy 203.106424 132.321693) (xy 203.609521 134.292916) (xy 203.608246 134.301779)
-				(xy 203.605754 134.30473) (xy 202.577889 135.176908) (xy 202.569364 135.179648) (xy 202.562046 135.17626)
-				(xy 202.217324 134.831538) (xy 202.215304 134.828828) (xy 201.746362 133.961214) (xy 201.745443 133.952307)
-				(xy 201.747607 133.948233) (xy 203.086042 132.317163) (xy 203.09394 132.312942)
+				(xy 186.816117 134.23033) (xy 187.16967 134.583883) (xy 188.514215 134.3) (xy 189.100707 132.299293)
+				(xy 187.7 132.285787)
+			)
+		)
+	)
+	(zone
+		(net 20)
+		(net_name "Wheel_spd_output")
+		(layer "B.Cu")
+		(uuid "ae9f6c69-4351-4828-b9e1-ff1af05f5d25")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30008)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 216.85 135.3) (xy 217.35 135.3) (xy 218.1 134.268174) (xy 217.1 132.299) (xy 216.1 134.268174)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 216.85 135.3) (xy 217.35 135.3) (xy 218.1 134.268174) (xy 217.1 132.299) (xy 216.1 134.268174)
+			)
+		)
+	)
+	(zone
+		(net 18)
+		(net_name "Eng_temp_sensor")
+		(layer "B.Cu")
+		(uuid "b67e4a0b-ee17-4ae9-9d57-d4809c669921")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30014)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 245.665686 135.148528) (xy 245.948529 134.865685) (xy 246.457373 133.954303) (xy 245.099293 132.299293)
+				(xy 244.588673 134.3)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 245.665686 135.148528) (xy 245.948529 134.865685) (xy 246.457373 133.954303) (xy 245.099293 132.299293)
+				(xy 244.588673 134.3)
 			)
 		)
 	)
@@ -46239,7 +47704,7 @@
 		(net 7)
 		(net_name "SI_RST")
 		(layer "B.Cu")
-		(uuid "a9d12a87-dbf0-4230-9a0f-9790f4349010")
+		(uuid "b7c5865f-f32c-45aa-9cf9-c1bb85d206f2")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
 		(priority 30015)
@@ -46268,21 +47733,19 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 241.613957 132.317164) (xy 242.952314 133.948139) (xy 242.954913 133.956708) (xy 242.953485 133.961265)
-				(xy 242.44932 134.864267) (xy 242.447377 134.866836) (xy 242.173035 135.141178) (xy 242.164762 135.144605)
-				(xy 242.157521 135.142095) (xy 241.09465 134.304709) (xy 241.090273 134.296898) (xy 241.090553 134.292631)
-				(xy 241.593576 132.32169) (xy 241.598942 132.314524) (xy 241.607805 132.313249)
+				(xy 242.165686 135.148528) (xy 242.448529 134.865685) (xy 242.957373 133.954303) (xy 241.599293 132.299293)
+				(xy 241.088673 134.3)
 			)
 		)
 	)
 	(zone
-		(net 14)
-		(net_name "Engine_spd_input")
+		(net 10)
+		(net_name "Temp_+Ub")
 		(layer "B.Cu")
-		(uuid "cbac984c-52e0-44a9-84ae-c732f900b407")
+		(uuid "bea02865-03ae-4150-88ea-6c772554d8f1")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30009)
+		(priority 30002)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46301,18 +47764,87 @@
 		)
 		(polygon
 			(pts
-				(xy 224.495015 135.239932) (xy 224.848568 134.886379) (xy 225.457373 133.954303) (xy 224.099293 132.299293)
-				(xy 223.492486 134.3)
+				(xy 254.065685 134.548528) (xy 254.348528 134.265685) (xy 253.5 132.285786) (xy 252.099293 132.299293)
+				(xy 252.685786 134.3)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 224.113179 132.316215) (xy 224.560943 132.861879) (xy 225.451928 133.947668) (xy 225.454527 133.956237)
-				(xy 225.452679 133.961488) (xy 224.84923 134.885364) (xy 224.847707 134.887239) (xy 224.503025 135.231921)
-				(xy 224.494752 135.235348) (xy 224.48675 135.232183) (xy 223.49779 134.304973) (xy 223.494098 134.296815)
-				(xy 223.494596 134.293042) (xy 223.597335 133.954303) (xy 224.092939 132.320241) (xy 224.098619 132.31332)
-				(xy 224.107531 132.312442)
+				(xy 254.065685 134.548528) (xy 254.348528 134.265685) (xy 253.5 132.285786) (xy 252.099293 132.299293)
+				(xy 252.685786 134.3)
+			)
+		)
+	)
+	(zone
+		(net 12)
+		(net_name "EG_1-")
+		(layer "B.Cu")
+		(uuid "bf9aa788-70e7-4d5b-9143-26ca977da7ad")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30003)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 206.35 135.3) (xy 206.85 135.3) (xy 207.6 134.268174) (xy 206.6 132.299) (xy 205.6 134.268174)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 206.35 135.3) (xy 206.85 135.3) (xy 207.6 134.268174) (xy 206.6 132.299) (xy 205.6 134.268174)
+			)
+		)
+	)
+	(zone
+		(net 24)
+		(net_name "+12_T30")
+		(layer "B.Cu")
+		(uuid "cc63a9a3-74a2-4158-babb-d1c5baead1df")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30004)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 227.35 135.3) (xy 227.85 135.3) (xy 228.6 134.268174) (xy 227.6 132.299) (xy 226.6 134.268174)
+			)
+		)
+		(filled_polygon
+			(layer "B.Cu")
+			(pts
+				(xy 227.35 135.3) (xy 227.85 135.3) (xy 228.6 134.268174) (xy 227.6 132.299) (xy 226.6 134.268174)
 			)
 		)
 	)
@@ -46433,13 +47965,13 @@
 		)
 	)
 	(zone
-		(net 17)
-		(net_name "Tach_1-")
+		(net 19)
+		(net_name "EG_1+")
 		(layer "B.Cu")
-		(uuid "dba741b9-6372-4994-baa9-9d261cd0aa42")
+		(uuid "e5addaa2-090e-49d1-a176-5e15815b8ab4")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30010)
+		(priority 30012)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46458,28 +47990,26 @@
 		)
 		(polygon
 			(pts
-				(xy 195.216116 134.83033) (xy 195.569669 135.183883) (xy 196.611329 134.3) (xy 196.100707 132.299293)
-				(xy 194.742627 133.954303)
+				(xy 202.216116 134.83033) (xy 202.569669 135.183883) (xy 203.611329 134.3) (xy 203.100707 132.299293)
+				(xy 201.742627 133.954303)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 196.102509 132.315541) (xy 196.106424 132.321693) (xy 196.609521 134.292916) (xy 196.608246 134.301779)
-				(xy 196.605754 134.30473) (xy 195.577889 135.176908) (xy 195.569364 135.179648) (xy 195.562046 135.17626)
-				(xy 195.217324 134.831538) (xy 195.215304 134.828828) (xy 194.746362 133.961214) (xy 194.745443 133.952307)
-				(xy 194.747607 133.948233) (xy 196.086042 132.317163) (xy 196.09394 132.312942)
+				(xy 202.216116 134.83033) (xy 202.569669 135.183883) (xy 203.611329 134.3) (xy 203.100707 132.299293)
+				(xy 201.742627 133.954303)
 			)
 		)
 	)
 	(zone
-		(net 23)
-		(net_name "Tach_2-")
+		(net 16)
+		(net_name "EG_2-")
 		(layer "B.Cu")
-		(uuid "e0a69715-015b-4416-a075-dce67bf4480a")
+		(uuid "e5be8b8d-50f8-4806-ae37-7550f47a75de")
 		(name "$teardrop_padvia$")
 		(hatch none 0.1)
-		(priority 30001)
+		(priority 30006)
 		(attr
 			(teardrop
 				(type padvia)
@@ -46498,96 +48028,13 @@
 		)
 		(polygon
 			(pts
-				(xy 186.816117 134.23033) (xy 187.16967 134.583883) (xy 188.514215 134.3) (xy 189.100707 132.299293)
-				(xy 187.7 132.285787)
+				(xy 209.85 135.3) (xy 210.35 135.3) (xy 211.1 134.268174) (xy 210.1 132.299) (xy 209.1 134.268174)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 189.085243 132.299143) (xy 189.093481 132.302649) (xy 189.096827 132.310955) (xy 189.096356 132.314133)
-				(xy 188.516182 134.293287) (xy 188.510566 134.300262) (xy 188.507371 134.301444) (xy 187.175874 134.582572)
-				(xy 187.167071 134.580928) (xy 187.165184 134.579397) (xy 186.821849 134.236062) (xy 186.818422 134.227789)
-				(xy 186.819469 134.222954) (xy 187.696849 132.292717) (xy 187.703392 132.286604) (xy 187.70761 132.28586)
-			)
-		)
-	)
-	(zone
-		(net 12)
-		(net_name "EG_1-")
-		(layer "B.Cu")
-		(uuid "e46793cd-9817-4a6d-9cd3-95caa2e5f058")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30003)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 206.35 135.3) (xy 206.85 135.3) (xy 207.6 134.268174) (xy 206.6 132.299) (xy 205.6 134.268174)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 206.605298 132.314408) (xy 206.610432 132.319542) (xy 207.596757 134.261789) (xy 207.597447 134.270718)
-				(xy 207.595789 134.273966) (xy 206.853504 135.295179) (xy 206.845868 135.299856) (xy 206.84404 135.3)
-				(xy 206.35596 135.3) (xy 206.347687 135.296573) (xy 206.346496 135.295179) (xy 205.60421 134.273966)
-				(xy 205.602118 134.265259) (xy 205.603242 134.261789) (xy 206.589568 132.319542) (xy 206.596369 132.313718)
-			)
-		)
-	)
-	(zone
-		(net 25)
-		(net_name "Tach_2+")
-		(layer "B.Cu")
-		(uuid "edee2422-d598-4d01-ad32-8c30ae6dd44c")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30011)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 191.716116 134.83033) (xy 192.069669 135.183883) (xy 193.111329 134.3) (xy 192.600707 132.299293)
-				(xy 191.242627 133.954303)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 192.602509 132.315541) (xy 192.606424 132.321693) (xy 193.109521 134.292916) (xy 193.108246 134.301779)
-				(xy 193.105754 134.30473) (xy 192.077889 135.176908) (xy 192.069364 135.179648) (xy 192.062046 135.17626)
-				(xy 191.717324 134.831538) (xy 191.715304 134.828828) (xy 191.246362 133.961214) (xy 191.245443 133.952307)
-				(xy 191.247607 133.948233) (xy 192.586042 132.317163) (xy 192.59394 132.312942)
+				(xy 209.85 135.3) (xy 210.35 135.3) (xy 211.1 134.268174) (xy 210.1 132.299) (xy 209.1 134.268174)
 			)
 		)
 	)
