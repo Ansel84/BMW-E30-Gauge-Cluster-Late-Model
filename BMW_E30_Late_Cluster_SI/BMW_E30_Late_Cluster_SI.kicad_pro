@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|206000000|150960000|f8ae4432-ef88-48c2-adca-e20bf5e437c9|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -510,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/nomics/data/Documents/[01] Projects/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
