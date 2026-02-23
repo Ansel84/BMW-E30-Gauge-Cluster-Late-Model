@@ -12774,7 +12774,7 @@
 				)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "470R"
 			(at 275.59 68.58 90)
 			(effects
 				(font
