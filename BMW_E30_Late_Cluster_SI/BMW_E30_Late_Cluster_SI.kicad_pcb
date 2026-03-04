@@ -26063,7 +26063,7 @@
 			(justify bottom mirror)
 		)
 	)
-	(gr_text "R. Ansel"
+	(gr_text "reAns"
 		(at 235.1 152 0)
 		(layer "B.Cu")
 		(uuid "9096f6e7-e5f7-45bd-a606-de5ee3ab4ad8")
