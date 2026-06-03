@@ -8,7 +8,8 @@
 		(title "Brake Wear Indicator Circuit")
 		(date "2025-11-10")
 		(rev "0")
-		(company "Reagan Ansel")
+		(company "Reans")
+		(comment 1 "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "Device:C"
