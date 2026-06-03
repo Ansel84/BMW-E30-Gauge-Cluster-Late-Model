@@ -8,7 +8,8 @@
 		(title "BMW E30 Late Model Cluster Nexus")
 		(date "2025-11-10")
 		(rev "0")
-		(company "Reagan Ansel")
+		(company "Reans")
+		(comment 1 "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "BMW_Cluster_Connectors:Gauge_fuel_temp"
@@ -8846,7 +8847,7 @@
 			(uuid "37746da3-079c-47c8-9a44-e0de304d1efe")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "D64")
 					(unit 1)
@@ -8925,7 +8926,7 @@
 			(uuid "e4856b36-c39b-46d6-bc4b-4dd28388c088")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA4")
 					(unit 1)
@@ -9162,7 +9163,7 @@
 			(uuid "7f12da7d-b99e-4dc7-8d52-1764b0d2f53b")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "U2")
 					(unit 1)
@@ -9314,7 +9315,7 @@
 			(uuid "3e5c4814-e591-4a4d-b92c-7c2c4a4e5a3d")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "J4")
 					(unit 1)
@@ -9459,7 +9460,7 @@
 			(uuid "75bc2aca-aa37-4199-b08e-fac8f68ad76e")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA11")
 					(unit 1)
@@ -9604,7 +9605,7 @@
 			(uuid "9c1c1068-e2ca-47ba-9109-7e23e498a700")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "R2")
 					(unit 1)
@@ -9814,7 +9815,7 @@
 			(uuid "b569428f-644b-463d-a3a0-3eb27efd0d4e")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA8")
 					(unit 1)
@@ -9959,7 +9960,7 @@
 			(uuid "3b69b2ad-4c21-4385-9dd9-72a441cbd6df")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA1")
 					(unit 1)
@@ -10036,7 +10037,7 @@
 			(uuid "2c2535d2-3761-458d-86b2-4cd68b756b80")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "R10")
 					(unit 1)
@@ -10115,7 +10116,7 @@
 			(uuid "b9bd87b8-4bbf-48ee-b5d9-4fac457b1390")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA6")
 					(unit 1)
@@ -10247,7 +10248,7 @@
 			(uuid "917595e0-b6b7-420f-a695-8281501fd0f1")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "#PWR05")
 					(unit 1)
@@ -10392,7 +10393,7 @@
 			(uuid "d7bcd564-aa37-45b0-a836-e297ec2f3baa")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA2")
 					(unit 1)
@@ -10471,7 +10472,7 @@
 			(uuid "71bb1460-11e8-4d46-ae3b-1250889c4437")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA7")
 					(unit 1)
@@ -10725,7 +10726,7 @@
 			(uuid "f31b466e-4b82-45b6-8963-da75e7fc4d35")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA9")
 					(unit 1)
@@ -11002,7 +11003,7 @@
 			(uuid "be76749a-05ec-4bd7-ab39-1f705de1102d")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA12")
 					(unit 1)
@@ -11068,7 +11069,7 @@
 			(uuid "7b307702-ecc1-47de-93ee-42b217c9751c")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "#PWR01")
 					(unit 1)
@@ -11279,7 +11280,7 @@
 			(uuid "e6bb777c-ca46-410c-9469-99935edaf850")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA16")
 					(unit 1)
@@ -11473,7 +11474,7 @@
 			(uuid "3fc6fe61-058b-4b56-aa3c-fdb15c39bb7e")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "J5")
 					(unit 1)
@@ -11622,7 +11623,7 @@
 			(uuid "169ee955-9d77-4e66-ade3-73c48c5a5621")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "J2")
 					(unit 1)
@@ -11833,7 +11834,7 @@
 			(uuid "0af0953d-f992-4ee7-aa32-eb8ffe1e931e")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA15")
 					(unit 1)
@@ -11978,7 +11979,7 @@
 			(uuid "af11fc14-42b7-4097-bf55-ce1ced54b1be")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA3")
 					(unit 1)
@@ -12146,7 +12147,7 @@
 			(uuid "a87ff888-bac2-4201-b656-63adc6a07e3b")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "J6")
 					(unit 1)
@@ -12291,7 +12292,7 @@
 			(uuid "16f3e4ba-afb0-444c-b6d1-ae0abc6888fc")
 		)
 		(instances
-			(project "e30-cluster"
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "LA5")
 					(unit 1)
@@ -12514,7 +12515,7 @@
 			(uuid "0a8338bf-a3af-4fc8-ace1-31d02772384e")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "U1")
 					(unit 1)
@@ -12927,7 +12928,7 @@
 			(uuid "169ee955-9d77-4e66-ade3-73c48c5a5622")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "J3")
 					(unit 1)
@@ -13076,7 +13077,7 @@
 			(uuid "169ee955-9d77-4e66-ade3-73c48c5a5623")
 		)
 		(instances
-			(project ""
+			(project "BMW_E30_Late_Cluster_Nexus"
 				(path "/b71b56f7-638c-4eba-a8eb-f338b4268b5b"
 					(reference "J1")
 					(unit 1)
@@ -13152,4 +13153,26 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "reans_sheet_template.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WD/Cu0XAPbhaSEA1TZqxSYVNDoEMnCBWkUAFLHYT8LfLc64wmSW/n9CwQRfAFoAZABfTlM7
+				Cd4PPZP4H186+DUZmyftazMZJC2P8bFwUWq25kUL8mvHwkXR9pEtP+RPAAACHc97OanDZJkyfiu6
+				ZexMnfGD2a9nCIBAQaOUVnXWvtiW2T8EQKDkgCwiGFoOIdn/etgijP3Ss7lq001Ur56Xy2XSChD4
+				izG0r9ol7kx06g/5X/6a1VV7XqJQDq990Dues9+Mwx979pw4IR4v7ePbb9d8i9eDM9hT/3WSxGHt
+				2uJ1q+pJaX8GA4vQjuDbzqhJOcfXfePbr1LR9rtrPIGhJBC7qR8kM8Z09g4omXCSTTKynjjiS1u1
+				q3CTj080beoGpaw+TAqJdN6Eq1gUW6JrkAYXdfWk9EBhnWkl7tsUFo7ieR1p0Ah/UJFzFgWBwsys
+				itUDRWfNENlvxpauoBUjcUhlrs3u12aulxf0XKs+aBalZRWr16FaFa1zTkqrrWV11qovCsPoB+Ee
+				j0iCNBBdsEPihDapC6udeZCNyxjfJvk4juFpWkVZjw3CObqFDYCaoBFNhdgMSQqSFDLMAYBEhObI
+				NmZkXfEEgg31YlRO4GceOtZZSD4tPZJ8rJ74G8PkjH1JKkKawsKGheoJuP2+IlY18ntrNC2s74Pr
+				DVe+cSgd0L7HteZMeDaXmooSSh/c+bVoVTYLk6RKN7Cv2UoaCAZv6YCSS6nbIQTWD7UwQeis5W/V
+				g0dYgB5CyE6HNFbmmlkm5KySJ6yIRrRM5Uc4pc8u9BJFUDGI5kCOG6xadygVBOu2LFloyz3FUwK0
+				K2QvICvncQgSH7pSFluywCLJ0Rwlm2f0GkYN7sFxT4mPYCI2kaL4bSAlPOhlas5v4CmJJDLxSXKn
+				Odp9OHfwRZI7o8xhC2+Z4AAEWT5Rojog0dbMToQXcXHPsDoOuhAAXPmNnp2jRa7V/EUBa9S+lvzC
+				Ux9y2yG0bmId6AOKOjzjaHSplt4lCml0x3i3uxaxGR+0Cg==|
+			)
+			(checksum "582015C87F5C50DCCFBFE692861C814F")
+		)
+	)
 )

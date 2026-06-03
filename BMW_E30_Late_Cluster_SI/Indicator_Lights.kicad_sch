@@ -6,8 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Indicator Lights")
-		(rev "0")
-		(company "Reagan Ansel")
+		(rev "2")
+		(company "Reans")
+		(comment 1 "Reagan Ansel")
+		(comment 2 "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "BMW_ICs:ITT_SAF1194-280_MCU"
@@ -4589,7 +4591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
+		(property "Footprint" "BMW_Cluster_Connectors:SILight_1x12_P2.54mm_Vertical_PinHeader"
 			(at 245.11 114.3 0)
 			(effects
 				(font

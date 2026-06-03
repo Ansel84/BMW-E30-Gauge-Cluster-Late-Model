@@ -6,8 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Temperature Sensor")
-		(rev "0")
-		(company "Reagan Ansel")
+		(rev "2")
+		(company "Reans")
+		(comment 1 "Reagan Ansel")
+		(comment 2 "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "Device:C"
