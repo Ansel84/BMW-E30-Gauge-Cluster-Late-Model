@@ -5514,6 +5514,26 @@
 		)
 		(uuid "00a4810c-986f-4370-8088-84997029b158")
 	)
+	(text_box "T15 is switched by the ignition switch\n\nT30 is constant power"
+		(exclude_from_sim no)
+		(at 55.88 57.15 0)
+		(size 21.59 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0113f733-72aa-4712-971e-72a4dfca2bae")
+	)
 	(text_box "NOTE: See \"Indicator Lights\" (page 4) for IC4"
 		(exclude_from_sim no)
 		(at 90.17 147.32 0)
