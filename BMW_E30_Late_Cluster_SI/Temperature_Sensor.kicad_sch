@@ -5,11 +5,11 @@
 	(uuid "a4d4021b-fdab-43c9-8074-d0942f1c19d9")
 	(paper "A4")
 	(title_block
-		(title "Temperature Sensor")
+		(title "BMW E30 Late Model SI Board")
+		(date "2026-06-03")
 		(rev "2")
 		(company "Reans")
 		(comment 1 "Reagan Ansel")
-		(comment 2 "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "Device:C"

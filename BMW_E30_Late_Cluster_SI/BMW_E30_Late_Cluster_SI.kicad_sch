@@ -5438,7 +5438,7 @@
 		)
 		(uuid "8e66e8e7-636e-4cb2-8261-c5bdcc864840")
 	)
-	(text "Battery Charging"
+	(text "Memory Battery Backup"
 		(exclude_from_sim no)
 		(at 87.63 74.422 0)
 		(effects

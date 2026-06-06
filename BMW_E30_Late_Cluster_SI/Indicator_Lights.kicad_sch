@@ -5,11 +5,11 @@
 	(uuid "df82c08f-35d9-4060-bfe2-6e3187e44a0f")
 	(paper "A4")
 	(title_block
-		(title "Indicator Lights")
+		(title "BMW E30 Late Model SI Board")
+		(date "2026-06-03")
 		(rev "2")
 		(company "Reans")
 		(comment 1 "Reagan Ansel")
-		(comment 2 "Reagan Ansel")
 	)
 	(lib_symbols
 		(symbol "BMW_ICs:ITT_SAF1194-280_MCU"
