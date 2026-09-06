@@ -1716,7 +1716,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC327"
+		(property "Value" "BC327-16"
 			(at 151.13 93.9801 0)
 			(effects
 				(font
