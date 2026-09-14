@@ -3567,6 +3567,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "T15 is switched by the ignition switch\n\nT30 is constant power"
+		(exclude_from_sim no)
+		(at 96.52 86.36 0)
+		(size 21.59 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7495e8b6-42e2-4ce3-86b2-a6e9d4b8fd8b")
+	)
 	(junction
 		(at 359.41 113.03)
 		(diameter 0)
